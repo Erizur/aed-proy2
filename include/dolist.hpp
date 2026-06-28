@@ -29,7 +29,8 @@ template <typename T> struct DoIterator {
   }
 
   DoIterator &operator--() {
-    if (node) node = node->prev;
+    if (node)
+      node = node->prev;
     return *this;
   }
 
@@ -137,7 +138,8 @@ public:
   }
 
   void insert(T data, size_t pos) {
-    if (pos > count || pos < 1) return;
+    if (pos > count || pos < 1)
+      return;
     if (pos == 1) {
       push_front(data);
       return;
@@ -164,7 +166,8 @@ public:
   }
 
   void erase(size_t pos) {
-    if (pos > count || pos < 1) return;
+    if (pos > count || pos < 1)
+      return;
     if (pos == 1) {
       pop_front();
       return;

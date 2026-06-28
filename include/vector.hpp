@@ -36,9 +36,7 @@ public:
     std::swap(cur_size, vec.cur_size);
   }
 
-  ~Vector<T>() {
-    delete[] std::exchange(data, nullptr);
-  };
+  ~Vector<T>() { delete[] std::exchange(data, nullptr); };
 
   void resize(size_t a) {
     if (a < big_size)
@@ -99,7 +97,7 @@ public:
     return data[idx];
   }
 
-  T& operator[](size_t idx) {
+  T &operator[](size_t idx) {
     if (idx >= cur_size)
       throw std::out_of_range("Vector index out of bounds");
     return data[idx];
