@@ -1,0 +1,8910 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-07-02T09:55:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 716005837,
+  "lat": -31.4200199,
+  "lon": -64.1873361,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 849595175,
+  "lat": -38.7163093,
+  "lon": -62.2653812,
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "79",
+    "addr:postcode": "B8000",
+    "addr:street": "Zelarrayán",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "website": "http://www.gridohelado.com.ar/"
+  }
+},
+{
+  "type": "node",
+  "id": 879827981,
+  "lat": -31.9442991,
+  "lon": -65.1902952,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 1170517062,
+  "lat": -27.4877722,
+  "lon": -55.1118936,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido Helados",
+    "opening_hours": "Su-Th 10:00-24:00, Fr,Sa 09:00-01:00"
+  }
+},
+{
+  "type": "node",
+  "id": 1184241752,
+  "lat": -27.4866023,
+  "lon": -55.1183388,
+  "tags": {
+    "addr:city": "Oberá",
+    "addr:street": "San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 1234620210,
+  "lat": -25.5956105,
+  "lon": -54.5745291,
+  "tags": {
+    "amenity": "restaurant",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "mexican",
+    "name": "Orale Wey"
+  }
+},
+{
+  "type": "node",
+  "id": 1452377799,
+  "lat": -32.9146054,
+  "lon": -68.8337749,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 1526159273,
+  "lat": -28.4667827,
+  "lon": -65.7980764,
+  "tags": {
+    "addr:housenumber": "925",
+    "addr:street": "Avenida Galíndez",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "phone": "3833 43-4412"
+  }
+},
+{
+  "type": "node",
+  "id": 1551186513,
+  "lat": -26.8105549,
+  "lon": -65.2482727,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 1589583437,
+  "lat": -27.4482760,
+  "lon": -58.9812965,
+  "tags": {
+    "addr:housenumber": "104",
+    "addr:street": "Avenida Paraguay",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 1609314919,
+  "lat": -35.4326442,
+  "lon": -60.1724377,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 1877668683,
+  "lat": -32.4063582,
+  "lon": -63.2409579,
+  "tags": {
+    "addr:city": "Villa María",
+    "addr:housenumber": "1499",
+    "addr:postcode": "5900",
+    "addr:street": "Catamarca",
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "contact:phone": "+54 353 452 9043",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1957403847,
+  "lat": -24.1688009,
+  "lon": -65.3202641,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 1977870894,
+  "lat": -27.3714980,
+  "lon": -55.8863634,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:housenumber": "1008",
+    "addr:postcode": "3300",
+    "addr:street": "Catamarca",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream;coffee_shop",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2103300829,
+  "lat": -38.9448534,
+  "lon": -68.0560364,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "953",
+    "addr:postcode": "Q8300",
+    "addr:street": "Santa Fe",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2165743564,
+  "lat": -31.4395285,
+  "lon": -68.5198441,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2165743737,
+  "lat": -31.4122604,
+  "lon": -68.4922664,
+  "tags": {
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2189138204,
+  "lat": -46.4452870,
+  "lon": -67.5170776,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2232125575,
+  "lat": -27.4779995,
+  "lon": -58.8204982,
+  "tags": {
+    "addr:housenumber": "2496",
+    "addr:postcode": "3400",
+    "addr:street": "Avenida Pedro Ferré",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido",
+    "opening_hours": "Mo-Fr 12:00-00:30; Sa 11:00-01:00; Su 11:00-00:45",
+    "phone": "+54 379 442 5466",
+    "shop": "ice_cream"
+  }
+},
+{
+  "type": "node",
+  "id": 2289759140,
+  "lat": -27.4682975,
+  "lon": -58.8390613,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2376632899,
+  "lat": -35.6248785,
+  "lon": -61.3647741,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "name:en": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2387934206,
+  "lat": -32.4153556,
+  "lon": -63.2597379,
+  "tags": {
+    "addr:city": "Villa María",
+    "addr:housenumber": "86",
+    "addr:postcode": "5900",
+    "addr:street": "Avenida Elpidio Gonzáles",
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "contact:phone": "+54 353 453 7290",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2387936510,
+  "lat": -32.4121184,
+  "lon": -63.2352968,
+  "tags": {
+    "addr:housenumber": "405",
+    "addr:postcode": "5900",
+    "addr:street": "Boulevard Marcelo T. de Alvear",
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "contact:phone": "+54 353 453 7070",
+    "cuisine": "ice_cream",
+    "name": "Glup's",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2387936511,
+  "lat": -32.4071419,
+  "lon": -63.2540872,
+  "tags": {
+    "addr:housenumber": "633",
+    "addr:postcode": "5900",
+    "addr:street": "Boulevard Vélez Sarsfield",
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2387939424,
+  "lat": -32.4223213,
+  "lon": -63.2489077,
+  "tags": {
+    "addr:housenumber": "535",
+    "addr:postcode": "5900",
+    "addr:street": "Avenida del Libertador General San Martín",
+    "amenity": "ice_cream",
+    "name": "Grido Helados",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2387939425,
+  "lat": -32.4140321,
+  "lon": -63.2478053,
+  "tags": {
+    "addr:housenumber": "1156",
+    "addr:postcode": "5900",
+    "addr:street": "Buenos Aires",
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2387940117,
+  "lat": -32.4155812,
+  "lon": -63.2505436,
+  "tags": {
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "contact:phone": "+54 353 452 9043",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2387949814,
+  "lat": -32.3976532,
+  "lon": -63.2438066,
+  "tags": {
+    "addr:housenumber": "1750",
+    "addr:postcode": "5900",
+    "addr:street": "Boulevard Argentino - Raúl Ricardo Alfonsín",
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Glup's",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2432926094,
+  "lat": -34.9046302,
+  "lon": -54.9434439,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2444370988,
+  "lat": -32.9128261,
+  "lon": -68.8449772,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2455675401,
+  "lat": -32.8594702,
+  "lon": -68.8330813,
+  "tags": {
+    "addr:street": "Avenida General San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2491239156,
+  "lat": -32.8977057,
+  "lon": -68.7994447,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2491527255,
+  "lat": -32.8978580,
+  "lon": -68.7992191,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2619304340,
+  "lat": -34.2463062,
+  "lon": -59.4733600,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2631787584,
+  "lat": -34.4446833,
+  "lon": -58.5518545,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2023-10-09",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2635708168,
+  "lat": -33.1957095,
+  "lon": -68.4670749,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2642076224,
+  "lat": -32.9454140,
+  "lon": -68.8537167,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2684100113,
+  "lat": -32.9133664,
+  "lon": -68.8725812,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2687662038,
+  "lat": -34.9032251,
+  "lon": -56.1571155,
+  "tags": {
+    "addr:city": "Montevideo",
+    "addr:country": "UY",
+    "addr:street": "Avenida General Rivera",
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2693880665,
+  "lat": -34.8008691,
+  "lon": -55.9187374,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2702553228,
+  "lat": -32.4109291,
+  "lon": -63.2427764,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2711424312,
+  "lat": -34.5982150,
+  "lon": -58.4083698,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "2902",
+    "addr:postcode": "C1187AAQ",
+    "addr:street": "Avenida Córdoba",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2713091311,
+  "lat": -32.6795928,
+  "lon": -61.5183740,
+  "tags": {
+    "addr:city": "Las Parejas",
+    "addr:country": "AR",
+    "addr:housenumber": "1002",
+    "addr:postcode": "2505",
+    "addr:street": "Calle 20",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "phone": "+54 3471 59 7046"
+  }
+},
+{
+  "type": "node",
+  "id": 2724724767,
+  "lat": -34.6541733,
+  "lon": -58.7723713,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2804609753,
+  "lat": -33.4860474,
+  "lon": -60.0036927,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2804609754,
+  "lat": -33.4957474,
+  "lon": -60.0606396,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2837112868,
+  "lat": -26.8298708,
+  "lon": -65.2031352,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2843974570,
+  "lat": -27.4876937,
+  "lon": -58.8165657,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2868023906,
+  "lat": -26.7791427,
+  "lon": -65.1826818,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 2983984540,
+  "lat": -32.9298067,
+  "lon": -68.8560919,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3007323466,
+  "lat": -32.9143256,
+  "lon": -68.8214110,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3039834758,
+  "lat": -31.4552718,
+  "lon": -64.2081026,
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "473",
+    "addr:street": "Avenida Armada Argentina",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "website": "http://www.gridohelado.com.ar"
+  }
+},
+{
+  "type": "node",
+  "id": 3070716107,
+  "lat": -33.0154717,
+  "lon": -58.5275295,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3075328231,
+  "lat": -33.0073546,
+  "lon": -58.5368383,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3094336846,
+  "lat": -33.0130431,
+  "lon": -58.5053620,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "internet_access": "yes",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3101172592,
+  "lat": -32.6936448,
+  "lon": -62.1051284,
+  "tags": {
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3104659550,
+  "lat": -28.5067931,
+  "lon": -59.0451487,
+  "tags": {
+    "addr:city": "Bella Vista",
+    "addr:postcode": "3432",
+    "addr:street": "Santa Fe",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3120587452,
+  "lat": -32.9548814,
+  "lon": -68.8592983,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3168785689,
+  "lat": -34.7195379,
+  "lon": -58.2607770,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3176877000,
+  "lat": -34.7199070,
+  "lon": -58.2528932,
+  "tags": {
+    "amenity": "ice_cream",
+    "branch": "Quilmes",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3178088629,
+  "lat": -32.9118316,
+  "lon": -68.7971980,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3201775378,
+  "lat": -34.9015879,
+  "lon": -56.1776235,
+  "tags": {
+    "amenity": "ice_cream",
+    "indoor_seating": "yes",
+    "name": "Grido",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3209517739,
+  "lat": -31.0200979,
+  "lon": -64.0633197,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3250749755,
+  "lat": -34.7759062,
+  "lon": -58.3937591,
+  "tags": {
+    "addr:city": "Temperley",
+    "addr:housenumber": "119",
+    "addr:street": "Cangallo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3254709317,
+  "lat": -30.8695590,
+  "lon": -61.3480726,
+  "tags": {
+    "addr:city": "Humberto Primo",
+    "addr:housenumber": "2",
+    "addr:postcode": "S2309",
+    "addr:street": "Rivadavia Este",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3284248596,
+  "lat": -38.8286407,
+  "lon": -68.1246793,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3299674336,
+  "lat": -27.3779773,
+  "lon": -55.9026666,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:housenumber": "3073",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Francisco de Haro",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3305937991,
+  "lat": -30.9460145,
+  "lon": -61.5606055,
+  "tags": {
+    "addr:city": "Sunchales",
+    "addr:housenumber": "488",
+    "addr:postcode": "S2322",
+    "addr:street": "Juan B. Justo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "internet_access": "wlan",
+    "name": "Grido",
+    "smoking": "outside",
+    "website": "http://www.gridohelado.com.ar"
+  }
+},
+{
+  "type": "node",
+  "id": 3319197658,
+  "lat": -31.7243093,
+  "lon": -65.0039880,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3339091697,
+  "lat": -31.4230831,
+  "lon": -64.1768885,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3365941821,
+  "lat": -27.3958292,
+  "lon": -55.9093346,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Lavalle",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3367437344,
+  "lat": -39.0181535,
+  "lon": -67.5859066,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3417499486,
+  "lat": -38.1347644,
+  "lon": -61.7972515,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3452330676,
+  "lat": -31.5823149,
+  "lon": -68.5345165,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3458518334,
+  "lat": -34.4548201,
+  "lon": -58.5366674,
+  "tags": {
+    "addr:city": "Victoria",
+    "addr:country": "AR",
+    "addr:housenumber": "3470",
+    "addr:postcode": "1644",
+    "addr:province": "Buenos Aires",
+    "addr:street": "Avenida Presidente Teniente General Juan Domingo Perón",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2025-10-25",
+    "check_date:opening_hours": "2024-02-17",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 00:00-23:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "source": "Reconocimiento terrestre por Kaart 2016.",
+    "takeaway": "yes",
+    "website": "https://www.argentina.gridohelado.com/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3505312266,
+  "lat": -34.9153443,
+  "lon": -57.9606476,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3540615879,
+  "lat": -31.0049974,
+  "lon": -64.0805841,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3540615880,
+  "lat": -31.0149007,
+  "lon": -64.0712973,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3641672004,
+  "lat": -34.6093296,
+  "lon": -58.3959024,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Rivadavia",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Su-Th 11:00-24:00, Fr,Sa 11:00-01:00"
+  }
+},
+{
+  "type": "node",
+  "id": 3669283560,
+  "lat": -35.1685250,
+  "lon": -58.2402945,
+  "tags": {
+    "addr:city": "Brandsen",
+    "addr:housenumber": "571",
+    "addr:postcode": "B1980",
+    "addr:street": "San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 12:00-24:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mercado_pago": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3673455728,
+  "lat": -31.0929892,
+  "lon": -64.4832636,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3682580960,
+  "lat": -31.2515138,
+  "lon": -61.4923901,
+  "tags": {
+    "addr:city": "Rafaela",
+    "addr:postcode": "S2300",
+    "addr:street": "San Martin",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 3682677054,
+  "lat": -31.2526188,
+  "lon": -61.4814841,
+  "tags": {
+    "addr:city": "Rafaela",
+    "addr:postcode": "S2300",
+    "addr:street": "Avenida General Bartolomé Mitre",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 3732079755,
+  "lat": -34.8214038,
+  "lon": -58.4695154,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "indoor_seating": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3756086740,
+  "lat": -31.6358561,
+  "lon": -60.7026784,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:country": "AR",
+    "addr:housenumber": "2509",
+    "addr:postcode": "S3000",
+    "addr:state": "Santa Fe",
+    "addr:street": "Bulevar Pellegrini",
+    "amenity": "fast_food",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "capacity": "8",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Dachshund wusrt",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3769191390,
+  "lat": -32.9677041,
+  "lon": -68.8493640,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3769958149,
+  "lat": -32.2180460,
+  "lon": -65.0472296,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3786698370,
+  "lat": -32.8836676,
+  "lon": -68.8556021,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3822840526,
+  "lat": -42.9156038,
+  "lon": -71.3206258,
+  "tags": {
+    "addr:city": "Esquel",
+    "addr:housenumber": "501",
+    "addr:postcode": "U9200",
+    "addr:street": "General Roca",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3827614369,
+  "lat": -31.8969674,
+  "lon": -61.8612143,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3831995062,
+  "lat": -37.3276742,
+  "lon": -59.1339961,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3835195167,
+  "lat": -37.3205160,
+  "lon": -59.1184619,
+  "tags": {
+    "addr:city": "Tandil",
+    "addr:postcode": "7000",
+    "addr:street": "Avenida Buzón",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3878915973,
+  "lat": -31.9474665,
+  "lon": -65.0514970,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3894519499,
+  "lat": -34.8914930,
+  "lon": -58.5681465,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3914942289,
+  "lat": -34.6520165,
+  "lon": -58.7926613,
+  "tags": {
+    "addr:housenumber": "173",
+    "addr:street": "Pedro Martínez Melo",
+    "amenity": "ice_cream",
+    "branch": "Moreno II",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3927820119,
+  "lat": -31.0506172,
+  "lon": -64.4965992,
+  "tags": {
+    "addr:city": "Villa Giardino",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3927960729,
+  "lat": -29.1656466,
+  "lon": -67.4947991,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2026-03-27",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3949383785,
+  "lat": -38.2714084,
+  "lon": -57.8360089,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3958298087,
+  "lat": -33.0347454,
+  "lon": -68.8966754,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3958532555,
+  "lat": -37.3277519,
+  "lon": -59.1171104,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3962552853,
+  "lat": -31.7976179,
+  "lon": -65.0030979,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3965271744,
+  "lat": -40.7989927,
+  "lon": -62.9812717,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3982803564,
+  "lat": -31.3671954,
+  "lon": -64.2338265,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3987857580,
+  "lat": -37.3299415,
+  "lon": -59.1446153,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 3989222740,
+  "lat": -34.7238928,
+  "lon": -55.9587938,
+  "tags": {
+    "addr:city": "Pando",
+    "addr:country": "UY",
+    "addr:housenumber": "1006",
+    "addr:street": "Roosevelt",
+    "amenity": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "phone": "+598 2292 0909",
+    "takeaway": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 3989958244,
+  "lat": -37.3200373,
+  "lon": -59.1505044,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4002995824,
+  "lat": -34.9049309,
+  "lon": -57.9558350,
+  "tags": {
+    "addr:street": "Diagonal 74",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4012941567,
+  "lat": -34.5682916,
+  "lon": -58.7426085,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4019551810,
+  "lat": -35.1168550,
+  "lon": -60.4866830,
+  "tags": {
+    "addr:city": "Bragado",
+    "addr:postcode": "6640",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "phone": "+54 2342 42 5025"
+  }
+},
+{
+  "type": "node",
+  "id": 4019626429,
+  "lat": -36.3566912,
+  "lon": -56.7185651,
+  "tags": {
+    "addr:city": "San Clemente del Tuyú",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4072351457,
+  "lat": -31.0049861,
+  "lon": -65.9923836,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido Helados"
+  }
+},
+{
+  "type": "node",
+  "id": 4079448808,
+  "lat": -31.5399851,
+  "lon": -68.6198353,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4087391102,
+  "lat": -32.8940734,
+  "lon": -68.8448125,
+  "tags": {
+    "addr:street": "Avenida Colón",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4127097198,
+  "lat": -34.8054642,
+  "lon": -58.4047086,
+  "tags": {
+    "addr:street": "Avenida Hipólito Yrigoyen",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4137390590,
+  "lat": -25.9446865,
+  "lon": -60.6150091,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4154382972,
+  "lat": -34.1268862,
+  "lon": -63.3895703,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4180031425,
+  "lat": -32.9461337,
+  "lon": -60.6622542,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4195888107,
+  "lat": -27.3695815,
+  "lon": -55.8973010,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4214670721,
+  "lat": -34.5957784,
+  "lon": -58.4429545,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "takeaway": "yes",
+    "website": "https://www.gridohelado.com/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4222449929,
+  "lat": -32.9485830,
+  "lon": -60.6543057,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4249839513,
+  "lat": -32.8846812,
+  "lon": -68.8483739,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4261509537,
+  "lat": -34.6035675,
+  "lon": -58.9493022,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4279260989,
+  "lat": -34.8828690,
+  "lon": -58.0061981,
+  "tags": {
+    "addr:city": "Manuel B. Gonnet",
+    "addr:housenumber": "2769",
+    "addr:street": "Camino Parque Centenario",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "delivery": "no",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 12:00-24:00",
+    "outdoor_seating": "yes",
+    "takeaway": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4335014038,
+  "lat": -46.7974018,
+  "lon": -67.9575546,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4361594894,
+  "lat": -38.7119805,
+  "lon": -62.2747623,
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "722",
+    "addr:street": "Estomba",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "name:es": "Grido",
+    "phone": "+54 9291 455-0534"
+  }
+},
+{
+  "type": "node",
+  "id": 4374074349,
+  "lat": -33.2332998,
+  "lon": -54.3866473,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4382311502,
+  "lat": -38.0286908,
+  "lon": -57.5579880,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4418159976,
+  "lat": -34.1130660,
+  "lon": -59.0153559,
+  "tags": {
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "shop": "chocolate"
+  }
+},
+{
+  "type": "node",
+  "id": 4443029189,
+  "lat": -25.5973661,
+  "lon": -54.5730303,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4458637147,
+  "lat": -38.0186290,
+  "lon": -57.5706762,
+  "tags": {
+    "addr:housenumber": "4446",
+    "addr:street": "Avenida Independencia",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "ice_cream": "yes",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4479917859,
+  "lat": -27.3787610,
+  "lon": -55.9179928,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:country": "AR",
+    "addr:housenumber": "3399",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida San Martín",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4479926957,
+  "lat": -31.4346421,
+  "lon": -64.1312907,
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:street": "Avenida Amadeo Sabattini",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4487066295,
+  "lat": -34.5594815,
+  "lon": -58.4526038,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1953",
+    "addr:street": "Avenida Juramento",
+    "addr:suburb": "Belgrano",
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "no",
+    "takeaway": "only"
+  }
+},
+{
+  "type": "node",
+  "id": 4504760836,
+  "lat": -33.9080970,
+  "lon": -60.5808590,
+  "tags": {
+    "addr:city": "Pergamino",
+    "addr:housenumber": "2078",
+    "addr:postcode": "2700",
+    "addr:street": "Avenida Juan B. Justo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4504769183,
+  "lat": -33.8929072,
+  "lon": -60.5811089,
+  "tags": {
+    "addr:city": "Pergamino",
+    "addr:housenumber": "710",
+    "addr:postcode": "2700",
+    "addr:street": "Pasaje Joaquín Víctor González",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4512934867,
+  "lat": -37.3766536,
+  "lon": -64.6007062,
+  "tags": {
+    "addr:city": "General Acha",
+    "addr:housenumber": "598",
+    "addr:postcode": "L8200",
+    "addr:street": "Garibaldi",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4526676133,
+  "lat": -34.9045068,
+  "lon": -56.1868064,
+  "tags": {
+    "amenity": "ice_cream",
+    "indoor_seating": "yes",
+    "name": "Grido",
+    "outdoor_seating": "no",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4529077851,
+  "lat": -34.8705944,
+  "lon": -56.1820133,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4529995786,
+  "lat": -27.0428837,
+  "lon": -55.2298109,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4532886101,
+  "lat": -32.4265515,
+  "lon": -63.7328065,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4540468924,
+  "lat": -34.8283810,
+  "lon": -55.9690962,
+  "tags": {
+    "addr:city": "Ciudad de la Costa",
+    "addr:street": "Avenida Ingeniero Luis Giannattasio",
+    "addr:suburb": "Solymar",
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4542065298,
+  "lat": -34.8787189,
+  "lon": -56.1474030,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+  }
+},
+{
+  "type": "node",
+  "id": 4542154760,
+  "lat": -34.8647354,
+  "lon": -56.2341813,
+  "tags": {
+    "addr:city": "Montevideo",
+    "addr:country": "UY",
+    "addr:housenumber": "771",
+    "addr:street": "Avenida Carlos María Ramírez",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4543521350,
+  "lat": -34.8748153,
+  "lon": -56.2005654,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG"
+  }
+},
+{
+  "type": "node",
+  "id": 4543528921,
+  "lat": -34.8710743,
+  "lon": -56.1158522,
+  "tags": {
+    "addr:street": "Hipólito Yrigoyen",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4543810656,
+  "lat": -34.8761686,
+  "lon": -56.1579587,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+  }
+},
+{
+  "type": "node",
+  "id": 4547290518,
+  "lat": -25.5230291,
+  "lon": -54.6244286,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG"
+  }
+},
+{
+  "type": "node",
+  "id": 4551502791,
+  "lat": -26.5698417,
+  "lon": -54.7501340,
+  "tags": {
+    "addr:city": "Montecarlo",
+    "addr:housenumber": "4983",
+    "addr:postcode": "3384",
+    "addr:street": "Avenida El Libertador",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 09:00-00:00",
+    "phone": "+54 3751 481231"
+  }
+},
+{
+  "type": "node",
+  "id": 4552968659,
+  "lat": -25.3043818,
+  "lon": -57.5591086,
+  "tags": {
+    "addr:street": "Mariscal Francisco Solano López",
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "source": "Actualizaciones en Paraguay. Reconocimiento cartográfico 2016 por KG."
+  }
+},
+{
+  "type": "node",
+  "id": 4554762074,
+  "lat": -32.0693012,
+  "lon": -64.5370460,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4567496638,
+  "lat": -34.9370039,
+  "lon": -57.9595007,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+  }
+},
+{
+  "type": "node",
+  "id": 4569063615,
+  "lat": -34.6346007,
+  "lon": -58.3699431,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Regimiento de Patricios",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4569282065,
+  "lat": -34.6476688,
+  "lon": -58.3727253,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Manuel A. Montes de Oca",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4576016231,
+  "lat": -26.4082169,
+  "lon": -54.6107395,
+  "tags": {
+    "addr:city": "Eldorado",
+    "addr:housenumber": "1538",
+    "addr:postcode": "3380",
+    "addr:street": "Avenida San Martín Este",
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4580136353,
+  "lat": -34.9210117,
+  "lon": -57.9284131,
+  "tags": {
+    "addr:street": "Plaza Domingo Matheu",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+  }
+},
+{
+  "type": "node",
+  "id": 4580505860,
+  "lat": -34.5010497,
+  "lon": -58.6917665,
+  "tags": {
+    "addr:street": "Avenida Presidente Juan Domingo Perón",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "node",
+  "id": 4580575059,
+  "lat": -34.4914119,
+  "lon": -58.6584551,
+  "tags": {
+    "addr:street": "Avenida del Libertador General San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "node",
+  "id": 4591609601,
+  "lat": -34.6347502,
+  "lon": -58.4474891,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Eva Perón",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4593190526,
+  "lat": -34.4902143,
+  "lon": -58.5022047,
+  "tags": {
+    "addr:city": "Martínez",
+    "addr:housenumber": "101",
+    "addr:postcode": "B1640",
+    "addr:street": "Hipólito Yrigoyen",
+    "amenity": "ice_cream",
+    "amenity_1": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2023-10-11",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Fr 11:00-22:00; Sa-Su 11:00-23:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "source": "Reconocimiento terrestre por Kaart 2016",
+    "takeaway": "yes",
+    "website": "https://argentina.gridohelado.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4597266554,
+  "lat": -34.8900579,
+  "lon": -58.3781662,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4597360650,
+  "lat": -32.9554972,
+  "lon": -60.6450883,
+  "tags": {
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4600429919,
+  "lat": -34.6477519,
+  "lon": -58.4155955,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Almafuerte",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4607064438,
+  "lat": -32.9671482,
+  "lon": -60.6451862,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2025-02-12",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4617369532,
+  "lat": -25.3451178,
+  "lon": -57.5085919,
+  "tags": {
+    "addr:street": "Avenida España",
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "source": "Actualizaciones en Paraguay. Reconocimiento cartográfico 2016 por KG."
+  }
+},
+{
+  "type": "node",
+  "id": 4618078631,
+  "lat": -31.3927235,
+  "lon": -58.0178297,
+  "tags": {
+    "addr:city": "Concordia",
+    "addr:country": "AR",
+    "addr:housenumber": "878",
+    "addr:postcode": "3200",
+    "addr:street": "Entre Ríos",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4625632698,
+  "lat": -34.6561776,
+  "lon": -58.5625383,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4625634093,
+  "lat": -34.5986367,
+  "lon": -58.5443339,
+  "tags": {
+    "addr:city": "Santos Lugares",
+    "addr:housenumber": "1575",
+    "addr:postcode": "B1676",
+    "addr:street": "425 - Rodríguez Peña",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "level": "0",
+    "name": "Grido",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+  }
+},
+{
+  "type": "node",
+  "id": 4626559467,
+  "lat": -34.6418948,
+  "lon": -58.6865363,
+  "tags": {
+    "addr:street": "Coronel Brandsen",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "node",
+  "id": 4632588775,
+  "lat": -34.4883050,
+  "lon": -58.6209601,
+  "tags": {
+    "addr:housenumber": "2592",
+    "addr:street": "Avenida Ángel Torcuato de Alvear",
+    "amenity": "ice_cream",
+    "check_date": "2024-06-14",
+    "name": "Grido",
+    "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "node",
+  "id": 4636121392,
+  "lat": -34.5208466,
+  "lon": -58.7542193,
+  "tags": {
+    "addr:street": "Roque Sáenz Peña",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "node",
+  "id": 4636651801,
+  "lat": -34.4722630,
+  "lon": -58.5148582,
+  "tags": {
+    "addr:city": "San Isidro",
+    "addr:housenumber": "250",
+    "addr:postcode": "B1642",
+    "addr:street": "Avenida Centenario",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2026-03-06",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 10:00-24:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "source": "Reconocimiento terrestre por Kaart 2016;local knowledge",
+    "takeaway": "yes",
+    "website": "https://argentina.gridohelado.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4638129594,
+  "lat": -34.5477029,
+  "lon": -58.7066745,
+  "tags": {
+    "addr:street": "Domingo Faustino Sarmiento",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "node",
+  "id": 4641154185,
+  "lat": -27.4198303,
+  "lon": -55.9314911,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:country": "AR",
+    "addr:street": "Avenida Alicia Moreau de Justo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4644719689,
+  "lat": -34.5804866,
+  "lon": -58.4751902,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Triunvirato",
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2025-12-04",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4649102357,
+  "lat": -34.5144668,
+  "lon": -58.7424812,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "node",
+  "id": 4649659108,
+  "lat": -34.5535480,
+  "lon": -58.4641586,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4660444697,
+  "lat": -28.6288522,
+  "lon": -65.1320060,
+  "tags": {
+    "addr:city": "Frias",
+    "addr:housenumber": "154",
+    "addr:postcode": "4230",
+    "addr:street": "Pellegrini",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4675597138,
+  "lat": -34.6031286,
+  "lon": -58.4049285,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Pueyrredón",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4675663074,
+  "lat": -34.4585947,
+  "lon": -58.5679314,
+  "tags": {
+    "addr:street": "Avenida Nicolás Avellaneda",
+    "amenity": "ice_cream",
+    "check_date": "2023-10-11",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 00:00-12:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG."
+  }
+},
+{
+  "type": "node",
+  "id": 4679318062,
+  "lat": -34.6670399,
+  "lon": -58.5304144,
+  "tags": {
+    "addr:street": "Avenida Brigadier General Juan Manuel de Rosas",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "source": "Reconocimiento terrestre 2016 por Kaart"
+  }
+},
+{
+  "type": "node",
+  "id": 4684267364,
+  "lat": -34.6531711,
+  "lon": -58.5176500,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Emilio Castro",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4689892812,
+  "lat": -34.6084510,
+  "lon": -58.4229180,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Díaz Vélez",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4690777705,
+  "lat": -34.4599852,
+  "lon": -58.6299843,
+  "tags": {
+    "addr:street": "Avenida Boulogne sur Mer",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "source": "Actualizaciones en Argentina. cartográfico 2016 por KG.",
+    "survey:date": "2022-08-04",
+    "website": "https://argentina.gridohelado.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4691612794,
+  "lat": -32.4356823,
+  "lon": -63.2486904,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4692880159,
+  "lat": -34.6289810,
+  "lon": -58.4393029,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida Directorio",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4693064009,
+  "lat": -34.6235967,
+  "lon": -58.3998630,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida San Juan",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4693682222,
+  "lat": -31.5338228,
+  "lon": -68.5228264,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "228 (E)",
+    "addr:postcode": "J5400AQP",
+    "addr:street": "Avenida Libertador General San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4695641903,
+  "lat": -31.5439268,
+  "lon": -68.5237298,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4696224316,
+  "lat": -34.4514827,
+  "lon": -58.5536397,
+  "tags": {
+    "addr:city": "Virreyes",
+    "addr:housenumber": "1800",
+    "addr:postcode": "B1646",
+    "addr:street": "Avenida Nicolás Avellaneda",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "source": "Reconocimiento cartográfico de campo 2016 por KG.;survey"
+  }
+},
+{
+  "type": "node",
+  "id": 4697810605,
+  "lat": -34.6607844,
+  "lon": -58.5156225,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "José León Suárez",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4703859269,
+  "lat": -31.7063035,
+  "lon": -65.0180193,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4708681596,
+  "lat": -34.6192988,
+  "lon": -58.4281491,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:street": "Avenida La Plata",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4758041942,
+  "lat": -33.0468084,
+  "lon": -71.4414005,
+  "tags": {
+    "addr:city": "Quilpué",
+    "addr:housenumber": "802",
+    "addr:street": "Diego Portales",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4770009476,
+  "lat": -28.4481610,
+  "lon": -65.7189578,
+  "tags": {
+    "addr:city": "Villa Dolores",
+    "addr:postcode": "4707",
+    "addr:street": "Avenida Presidente Castillo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4790885148,
+  "lat": -27.6498279,
+  "lon": -67.0258731,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4792414921,
+  "lat": -31.3550319,
+  "lon": -64.5926051,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "name:es": "Grido Helado"
+  }
+},
+{
+  "type": "node",
+  "id": 4809873612,
+  "lat": -29.7918366,
+  "lon": -58.0567677,
+  "tags": {
+    "addr:city": "Curuzú Cuatiá",
+    "addr:postcode": "3460",
+    "addr:street": "Tomás Pozzi & Castillo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4812007022,
+  "lat": -24.7889010,
+  "lon": -65.4109275,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4911878243,
+  "lat": -31.3167125,
+  "lon": -64.3093381,
+  "tags": {
+    "addr:city": "Córdoba, Saldán",
+    "addr:street": "Vélez Sarsfield",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4928876850,
+  "lat": -25.2606103,
+  "lon": -57.5810972,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "source": "TALLER URBANO - GRUPO 8"
+  }
+},
+{
+  "type": "node",
+  "id": 4964925169,
+  "lat": -34.7637021,
+  "lon": -58.4060409,
+  "tags": {
+    "addr:city": "Lomas de Zamora",
+    "addr:housenumber": "590",
+    "addr:postcode": "1832",
+    "addr:street": "José Eusebio Colombres",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 4966507646,
+  "lat": -34.4613326,
+  "lon": -58.9131989,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5000083630,
+  "lat": -31.4542094,
+  "lon": -68.4059390,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "name:en": "Grido",
+    "name:es": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5013370743,
+  "lat": -27.3846083,
+  "lon": -55.9264237,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:housenumber": "4898",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Chacabuco",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5022544422,
+  "lat": -30.2426431,
+  "lon": -68.7459506,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5029765349,
+  "lat": -26.4095747,
+  "lon": -54.6069155,
+  "tags": {
+    "addr:city": "Eldorado",
+    "addr:postcode": "3380",
+    "amenity": "ice_cream",
+    "name": "Grido Helados"
+  }
+},
+{
+  "type": "node",
+  "id": 5033649872,
+  "lat": -26.4069334,
+  "lon": -54.6600913,
+  "tags": {
+    "addr:city": "Eldorado",
+    "addr:postcode": "3380",
+    "addr:street": "Avenida San Martín Oeste",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5043921326,
+  "lat": -31.3578850,
+  "lon": -64.2127271,
+  "tags": {
+    "addr:street": "Santiago Baravino",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "name:es": "Grido Helados"
+  }
+},
+{
+  "type": "node",
+  "id": 5054987577,
+  "lat": -31.4090357,
+  "lon": -64.2168803,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5072231013,
+  "lat": -38.0058450,
+  "lon": -57.5888930,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5109729327,
+  "lat": -34.7062366,
+  "lon": -58.3888541,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5118473302,
+  "lat": -23.8137083,
+  "lon": -64.7897674,
+  "tags": {
+    "addr:city": "Libertador General San Martín",
+    "addr:postcode": "4512",
+    "addr:street": "Avenida Libertad",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5175061698,
+  "lat": -29.4121564,
+  "lon": -66.8565935,
+  "tags": {
+    "addr:city": "La Rioja",
+    "addr:postcode": "5300",
+    "addr:street": "25 de Mayo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5175061701,
+  "lat": -29.4114516,
+  "lon": -66.8502190,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5183673034,
+  "lat": -32.7173556,
+  "lon": -60.7306637,
+  "tags": {
+    "addr:city": "Puerto General San Martín",
+    "addr:postcode": "S2202",
+    "addr:street": "Avenida Córdoba",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5189151223,
+  "lat": -31.9814601,
+  "lon": -68.4275715,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5200943508,
+  "lat": -33.5794292,
+  "lon": -69.0159121,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5212892823,
+  "lat": -38.9400931,
+  "lon": -67.9949725,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "139",
+    "addr:postcode": "R8324",
+    "addr:street": "Miguel Muñoz",
+    "amenity": "ice_cream",
+    "branch": "Cipolletti",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5212929421,
+  "lat": -38.9363537,
+  "lon": -67.9922686,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "604",
+    "addr:postcode": "R8324",
+    "addr:street": "Leandro N. Alem",
+    "amenity": "ice_cream",
+    "branch": "Cipolletti",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5244390389,
+  "lat": -34.7645449,
+  "lon": -58.2147773,
+  "tags": {
+    "addr:street": "Avenida 14 - Gastón F. Rigolleau",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5249894208,
+  "lat": -34.7545281,
+  "lon": -58.2108422,
+  "tags": {
+    "addr:street": "Avenida Mitre",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5250932038,
+  "lat": -34.7616295,
+  "lon": -58.2092183,
+  "tags": {
+    "addr:city": "Berazategui",
+    "addr:street": "Avenida 14 - Juan Domingo Perón",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5257002509,
+  "lat": -31.4194329,
+  "lon": -63.0582676,
+  "tags": {
+    "addr:city": "Arroyito",
+    "addr:housenumber": "1634",
+    "addr:postcode": "2434",
+    "addr:street": "Avenida Mariano Moreno",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 12:00-24:00",
+    "outdoor_seating": "yes",
+    "takeaway": "yes",
+    "website": "http://gridohelado.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5270765459,
+  "lat": -34.6755069,
+  "lon": -58.3848382,
+  "tags": {
+    "addr:street": "Avenida Santa Fe",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5273446481,
+  "lat": -34.8646039,
+  "lon": -57.9046923,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "kids_area": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5296081793,
+  "lat": -24.9027802,
+  "lon": -65.4869005,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5306189599,
+  "lat": -27.3548547,
+  "lon": -55.9028600,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:country": "AR",
+    "addr:place": "El Brete",
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5330325221,
+  "lat": -27.4904850,
+  "lon": -58.7810770,
+  "tags": {
+    "addr:street": "Presidente Juan Domingo Perón",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5331419425,
+  "lat": -54.8055215,
+  "lon": -68.3155509,
+  "tags": {
+    "addr:city": "Ushuaia",
+    "addr:housenumber": "1120",
+    "addr:postcode": "V9410",
+    "addr:street": "Hernando de Magallanes",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5331456521,
+  "lat": -46.4456744,
+  "lon": -67.5175397,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 12:00-00:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5349810953,
+  "lat": -34.0988457,
+  "lon": -59.0231091,
+  "tags": {
+    "addr:street": "Rómulo Noya",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5352758008,
+  "lat": -32.9025127,
+  "lon": -68.8426544,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5362190563,
+  "lat": -31.3860161,
+  "lon": -64.2178117,
+  "tags": {
+    "addr:street": "Avenida Caraffa",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5364782492,
+  "lat": -31.3950258,
+  "lon": -64.1678126,
+  "tags": {
+    "addr:street": "Avenida Leandro N. Alem",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5370661038,
+  "lat": -31.3874403,
+  "lon": -64.1836765,
+  "tags": {
+    "addr:street": "Fray Leon Torres",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5373360538,
+  "lat": -31.4153030,
+  "lon": -64.1668806,
+  "tags": {
+    "addr:street": "Coronel Juan Pascual Pringles",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5376611484,
+  "lat": -31.4124978,
+  "lon": -64.1609743,
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:street": "Avenida 24 de Septiembre",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5377531222,
+  "lat": -27.7706086,
+  "lon": -65.5884886,
+  "tags": {
+    "amenity": "ice_cream",
+    "branch": "Helados",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5382295319,
+  "lat": -26.8178723,
+  "lon": -65.2665669,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5455169093,
+  "lat": -31.4092536,
+  "lon": -64.4792701,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5455169426,
+  "lat": -32.3421059,
+  "lon": -65.0137758,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su,PH 12:00-24:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5455169737,
+  "lat": -31.4187228,
+  "lon": -64.5055416,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5467141019,
+  "lat": -30.4018293,
+  "lon": -56.4682644,
+  "tags": {
+    "addr:city": "Artigas",
+    "addr:country": "UY",
+    "addr:housenumber": "452",
+    "addr:postcode": "55000",
+    "addr:street": "General Eugenio Garzón",
+    "amenity": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 11:00-22:00",
+    "outdoor_seating": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5468491876,
+  "lat": -34.5862895,
+  "lon": -58.7462759,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5501925443,
+  "lat": -29.3827080,
+  "lon": -63.4758550,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5503855489,
+  "lat": -32.3647133,
+  "lon": -61.3353127,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5503856239,
+  "lat": -32.3693689,
+  "lon": -61.3574892,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5516817805,
+  "lat": -35.7689900,
+  "lon": -58.4915274,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5526611507,
+  "lat": -33.7783626,
+  "lon": -69.0658495,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5526863024,
+  "lat": -34.7140221,
+  "lon": -58.5930818,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5541391332,
+  "lat": -33.2226761,
+  "lon": -66.2274393,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5543281022,
+  "lat": -34.6909704,
+  "lon": -58.3353778,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2024-12-25",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5545025152,
+  "lat": -27.4827231,
+  "lon": -58.8259989,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5555316950,
+  "lat": -35.4401050,
+  "lon": -58.8098922,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5569994127,
+  "lat": -35.8138296,
+  "lon": -61.8959682,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5600889363,
+  "lat": -33.1831035,
+  "lon": -66.3118082,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5600952609,
+  "lat": -34.8961552,
+  "lon": -56.1219426,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5608294221,
+  "lat": -32.4900184,
+  "lon": -58.2294980,
+  "tags": {
+    "addr:street": "José Gervasio Artigas",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5644606450,
+  "lat": -31.4772145,
+  "lon": -64.1902587,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5644724600,
+  "lat": -34.7052593,
+  "lon": -58.3929994,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5646642914,
+  "lat": -31.3120706,
+  "lon": -64.4610813,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5654864448,
+  "lat": -26.0239471,
+  "lon": -54.6137292,
+  "tags": {
+    "addr:city": "Puerto Esperanza",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5707258838,
+  "lat": -31.7210573,
+  "lon": -64.4041572,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5726457174,
+  "lat": -32.9014343,
+  "lon": -68.7885399,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5759546522,
+  "lat": -32.4846588,
+  "lon": -58.2360669,
+  "tags": {
+    "addr:housenumber": "921",
+    "addr:street": "Galarza",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5762434197,
+  "lat": -35.0226823,
+  "lon": -58.4251186,
+  "tags": {
+    "amenity": "ice_cream",
+    "indoor_seating": "yes",
+    "name": "Grido",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5785618345,
+  "lat": -33.3308927,
+  "lon": -60.2170888,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5790402019,
+  "lat": -33.3406743,
+  "lon": -60.2161596,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5827433033,
+  "lat": -27.3200391,
+  "lon": -58.5700116,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5827433035,
+  "lat": -27.3217048,
+  "lon": -58.5686007,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5829750500,
+  "lat": -25.0938208,
+  "lon": -57.5203117,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5838826887,
+  "lat": -27.3656007,
+  "lon": -55.9456443,
+  "tags": {
+    "addr:street": "Avenida Tambor de Tacuarí",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5851289729,
+  "lat": -30.7273594,
+  "lon": -64.8048081,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5871193196,
+  "lat": -30.7443996,
+  "lon": -64.7900449,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5934999906,
+  "lat": -24.2332785,
+  "lon": -64.8691424,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5965263616,
+  "lat": -31.3957962,
+  "lon": -64.5581102,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5973696881,
+  "lat": -34.1752378,
+  "lon": -59.7888181,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5978896170,
+  "lat": -34.6400666,
+  "lon": -58.5237191,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5985186043,
+  "lat": -34.7458376,
+  "lon": -58.3930019,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5987371485,
+  "lat": -34.5786432,
+  "lon": -58.6553188,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 5995535625,
+  "lat": -31.5384573,
+  "lon": -68.5821677,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6001570429,
+  "lat": -34.6075483,
+  "lon": -68.3560404,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6021065603,
+  "lat": -34.8349905,
+  "lon": -58.4935753,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6032635983,
+  "lat": -31.5286752,
+  "lon": -68.5632137,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6104754702,
+  "lat": -31.3730762,
+  "lon": -64.1507326,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6104769656,
+  "lat": -31.4863166,
+  "lon": -64.2470399,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6111963288,
+  "lat": -34.7922899,
+  "lon": -58.3584626,
+  "tags": {
+    "addr:housenumber": "3375",
+    "addr:street": "Avenida General San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6125222573,
+  "lat": -34.9809465,
+  "lon": -67.6839677,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "description": "Venta de helados, tortasheladas y en baldes.",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6163919819,
+  "lat": -27.5825499,
+  "lon": -56.6863967,
+  "tags": {
+    "addr:city": "Ituzaingó",
+    "addr:postcode": "3230",
+    "addr:street": "Francisco López",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6170337585,
+  "lat": -33.5198821,
+  "lon": -70.6021398,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6187152667,
+  "lat": -31.0754794,
+  "lon": -64.4928349,
+  "tags": {
+    "addr:city": "Huerta Grande",
+    "addr:housenumber": "829",
+    "addr:postcode": "X5166",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6206537687,
+  "lat": -31.3843262,
+  "lon": -62.8310878,
+  "tags": {
+    "addr:street": "Avenida Independencia",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6217305447,
+  "lat": -31.4324268,
+  "lon": -64.2483305,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6223487842,
+  "lat": -23.1366579,
+  "lon": -64.3239132,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6226509097,
+  "lat": -41.1378562,
+  "lon": -71.3011275,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6256372693,
+  "lat": -31.3491703,
+  "lon": -64.3371686,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6256781975,
+  "lat": -31.3458726,
+  "lon": -64.3361462,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6260906765,
+  "lat": -35.3920095,
+  "lon": -62.4253370,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6260963951,
+  "lat": -34.8032390,
+  "lon": -58.4783793,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6279634486,
+  "lat": -26.8458923,
+  "lon": -65.2226295,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6283686948,
+  "lat": -31.4284706,
+  "lon": -64.1856305,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6290437357,
+  "lat": -31.5113529,
+  "lon": -68.5081280,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "ref": "616"
+  }
+},
+{
+  "type": "node",
+  "id": 6312021142,
+  "lat": -30.0149389,
+  "lon": -59.5310943,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6314684988,
+  "lat": -29.4143149,
+  "lon": -66.8524904,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6316883134,
+  "lat": -31.7215418,
+  "lon": -65.0066480,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6316883164,
+  "lat": -31.6580582,
+  "lon": -64.4283541,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6316883286,
+  "lat": -31.9466284,
+  "lon": -65.1797390,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6317120458,
+  "lat": -38.9281486,
+  "lon": -67.9985123,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "1176",
+    "addr:postcode": "R8324",
+    "addr:street": "Avenida Mengelle",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6325662725,
+  "lat": -34.5663259,
+  "lon": -59.1109831,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "takeaway": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6357084161,
+  "lat": -34.8711421,
+  "lon": -58.5171989,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6371477567,
+  "lat": -34.5722783,
+  "lon": -58.4460265,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2023-12-26",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Th,Su 11:00-23:00; Fr-Sa 11:00-24:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6546579696,
+  "lat": -24.3899747,
+  "lon": -65.2619556,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6558282040,
+  "lat": -31.3397438,
+  "lon": -66.5889502,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido Helados"
+  }
+},
+{
+  "type": "node",
+  "id": 6592264516,
+  "lat": -32.1049296,
+  "lon": -64.7534640,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6653262488,
+  "lat": -34.8549904,
+  "lon": -58.5215931,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6688530862,
+  "lat": -24.2113828,
+  "lon": -65.2685589,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6699390600,
+  "lat": -34.6098519,
+  "lon": -58.5624347,
+  "tags": {
+    "addr:housenumber": "2979",
+    "addr:street": "643 - Avenida del Libertador General José de San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2025-07-03",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Th,Su 12:00-23:00; Fr-Sa 12:00-24:00",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:debit_cards": "yes",
+    "takeaway": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 6699642856,
+  "lat": -33.0891875,
+  "lon": -64.2872396,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6778413849,
+  "lat": -32.6004093,
+  "lon": -66.1265078,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6781739565,
+  "lat": -31.4089233,
+  "lon": -64.4892553,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6788598014,
+  "lat": -31.6673771,
+  "lon": -60.7561102,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6788598015,
+  "lat": -31.6617887,
+  "lon": -60.7621976,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6788598016,
+  "lat": -31.6722221,
+  "lon": -60.7686721,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6800847918,
+  "lat": -34.7977703,
+  "lon": -58.4248598,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6817642659,
+  "lat": -32.5916326,
+  "lon": -69.3478301,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2023-10-25",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6817709068,
+  "lat": -33.0853122,
+  "lon": -68.4651741,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 6819631587,
+  "lat": -24.1724822,
+  "lon": -65.2976154,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 12:00-24:00",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6865239006,
+  "lat": -26.8119649,
+  "lon": -65.3021551,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 11:00-00:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6883972435,
+  "lat": -38.9661897,
+  "lon": -68.0589979,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "1035",
+    "addr:postcode": "Q8300",
+    "addr:street": "Avenida Olascoaga",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 6900470725,
+  "lat": -31.5308898,
+  "lon": -68.5958542,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "internet_access": "no",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6923436940,
+  "lat": -31.4346699,
+  "lon": -64.4991241,
+  "tags": {
+    "addr:city": "Villa Carlos Paz",
+    "addr:housenumber": "604",
+    "addr:street": "Avenida Cárcano",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6943969287,
+  "lat": -34.5640894,
+  "lon": -58.6831945,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7004254092,
+  "lat": -31.4214707,
+  "lon": -64.4923597,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7041592485,
+  "lat": -24.8443951,
+  "lon": -65.4511732,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "name:es": "Heladería Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7044866203,
+  "lat": -31.3907843,
+  "lon": -64.1852690,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7058540034,
+  "lat": -34.4694581,
+  "lon": -58.7568788,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7061964479,
+  "lat": -33.0014655,
+  "lon": -60.6492198,
+  "tags": {
+    "addr:street": "Avenida José de San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7070682091,
+  "lat": -25.4001037,
+  "lon": -57.2873498,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido Helados"
+  }
+},
+{
+  "type": "node",
+  "id": 7125411711,
+  "lat": -32.9246527,
+  "lon": -68.8449412,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7132352885,
+  "lat": -32.2200978,
+  "lon": -58.1382031,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7139596044,
+  "lat": -32.9020572,
+  "lon": -68.8244165,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7155222933,
+  "lat": -37.9746043,
+  "lon": -57.5931762,
+  "tags": {
+    "addr:housenumber": "7299",
+    "addr:street": "Avenida Pedro Luro",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "note": "averiguar y controlar los numeros de telefono, ay otras heladerias que se hacen pasar por ellos y asi robar clientes",
+    "phone": "+54 223 432 2626"
+  }
+},
+{
+  "type": "node",
+  "id": 7169684032,
+  "lat": -37.9956492,
+  "lon": -57.6024472,
+  "tags": {
+    "addr:housenumber": "6732",
+    "addr:street": "Avenida Juan B. Justo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7230812058,
+  "lat": -28.1879978,
+  "lon": -65.7893381,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7233158849,
+  "lat": -29.1464291,
+  "lon": -59.6475020,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7233158850,
+  "lat": -29.1166487,
+  "lon": -59.6646116,
+  "tags": {
+    "addr:housenumber": "10",
+    "addr:street": "Avenida San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7234391285,
+  "lat": -31.2438109,
+  "lon": -64.4660524,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7243419885,
+  "lat": -32.9387635,
+  "lon": -68.8401488,
+  "tags": {
+    "addr:street": "Sarmiento",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7243751805,
+  "lat": -28.0528930,
+  "lon": -56.0232084,
+  "tags": {
+    "addr:city": "Gobernador Ingeniero Valentín Virasoro",
+    "addr:postcode": "3342",
+    "addr:street": "Avenida Lavalle",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7274105172,
+  "lat": -32.8739628,
+  "lon": -68.8500386,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7275045685,
+  "lat": -43.0828173,
+  "lon": -71.4643001,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7292824824,
+  "lat": -32.8791476,
+  "lon": -68.8360000,
+  "tags": {
+    "addr:postcode": "5500",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7348704402,
+  "lat": -34.7268006,
+  "lon": -58.5335228,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7363055755,
+  "lat": -38.0322272,
+  "lon": -57.5874806,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7373683793,
+  "lat": -27.4527317,
+  "lon": -58.9972761,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7474403726,
+  "lat": -30.4244090,
+  "lon": -64.3527871,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7641281183,
+  "lat": -38.9327791,
+  "lon": -69.2230495,
+  "tags": {
+    "addr:city": "Cutral Có",
+    "addr:country": "AR",
+    "addr:housenumber": "387",
+    "addr:postcode": "8322",
+    "addr:street": "Avenida Olascoaga",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 7644869939,
+  "lat": -34.5625813,
+  "lon": -58.4659028,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 11:00-24:00"
+  }
+},
+{
+  "type": "node",
+  "id": 7681008694,
+  "lat": -38.0654967,
+  "lon": -57.5478401,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7681505402,
+  "lat": -29.4111754,
+  "lon": -66.8386263,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7693152249,
+  "lat": -31.5335737,
+  "lon": -68.5005399,
+  "tags": {
+    "addr:city": "Santa Lucía",
+    "addr:housenumber": "1800",
+    "addr:postcode": "5411",
+    "addr:street": "Avenida Libertador General San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "phone": "+54 9 0264 466-4677"
+  }
+},
+{
+  "type": "node",
+  "id": 7779762868,
+  "lat": -34.4098785,
+  "lon": -58.6859063,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7782030008,
+  "lat": -37.9923818,
+  "lon": -57.5588586,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7786108824,
+  "lat": -34.6322018,
+  "lon": -58.7821146,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7797387504,
+  "lat": -37.8794905,
+  "lon": -67.7928514,
+  "tags": {
+    "addr:city": "Catriel",
+    "addr:housenumber": "51",
+    "addr:postcode": "R8307",
+    "addr:street": "Avenida San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7811496848,
+  "lat": -39.9506656,
+  "lon": -71.0717484,
+  "tags": {
+    "addr:city": "Junín de los Andes",
+    "addr:housenumber": "539",
+    "addr:postcode": "Q8371",
+    "addr:street": "San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7817837505,
+  "lat": -31.5353967,
+  "lon": -68.5364886,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "20 (S)",
+    "addr:postcode": "J5402DRN",
+    "addr:street": "Avenida España",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7880156411,
+  "lat": -31.3632035,
+  "lon": -64.3414720,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7882386315,
+  "lat": -31.9785057,
+  "lon": -64.5597652,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2025-10-11",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7891446474,
+  "lat": -38.8278416,
+  "lon": -68.0655623,
+  "tags": {
+    "addr:city": "Cinco Saltos",
+    "addr:housenumber": "40",
+    "addr:postcode": "R8303",
+    "addr:street": "Maipú",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7900856985,
+  "lat": -27.3671863,
+  "lon": -55.9030777,
+  "tags": {
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Centenario",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7915420244,
+  "lat": -50.3384203,
+  "lon": -72.2717418,
+  "tags": {
+    "addr:city": "El Calafate",
+    "addr:housenumber": "1486",
+    "addr:postcode": "Z9405",
+    "addr:street": "Avenida del Libertador",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7936196055,
+  "lat": -32.1887839,
+  "lon": -64.4803610,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7952732526,
+  "lat": -32.8697706,
+  "lon": -68.8394603,
+  "tags": {
+    "addr:housenumber": "2804",
+    "addr:street": "Avenida Bartolomé Mitre",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 7953086203,
+  "lat": -38.9260062,
+  "lon": -67.9906709,
+  "tags": {
+    "addr:city": "Cipolletti",
+    "addr:housenumber": "1386",
+    "addr:postcode": "R8324",
+    "addr:street": "La Esmeralda",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7960983795,
+  "lat": -36.7793710,
+  "lon": -59.8569496,
+  "tags": {
+    "addr:city": "Azul",
+    "addr:housenumber": "699",
+    "addr:postcode": "7300",
+    "addr:street": "Avenida Bartolomé Mitre",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2025-05-16",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7963941803,
+  "lat": -36.7807975,
+  "lon": -59.8669194,
+  "tags": {
+    "addr:city": "Azul",
+    "addr:housenumber": "437",
+    "addr:postcode": "7300",
+    "addr:street": "Avenida Juan Domingo Perón",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2026-01-18",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8008350901,
+  "lat": -27.3332886,
+  "lon": -55.8678196,
+  "tags": {
+    "addr:city": "Encarnación",
+    "addr:housenumber": "1280",
+    "addr:postcode": "6000",
+    "addr:street": "Juan León Mallorquín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8040541538,
+  "lat": -36.6750176,
+  "lon": -64.3766632,
+  "tags": {
+    "addr:city": "Toay",
+    "addr:housenumber": "1290",
+    "addr:postcode": "L6303",
+    "addr:street": "Sáenz Peña",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "contact:instagram": "https://www.instagram.com/somosgridolp/",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "old_name": "Paseo de Compras Toay",
+    "opening_hours": "Mo-Th 12:00-00:00; Fr 12:00-01:00; Sa 11:00-01:00; Su 10:00-00:00",
+    "outdoor_seating": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 8115240338,
+  "lat": -32.2067779,
+  "lon": -64.4041326,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8119491289,
+  "lat": -30.7575512,
+  "lon": -57.9865409,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8122571982,
+  "lat": -24.7624245,
+  "lon": -65.3968247,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8177809948,
+  "lat": -32.8984182,
+  "lon": -68.6938563,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8250188876,
+  "lat": -31.1712396,
+  "lon": -64.3156573,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8263008468,
+  "lat": -32.1729846,
+  "lon": -64.4507146,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8322233063,
+  "lat": -31.7796078,
+  "lon": -64.5447542,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8347319214,
+  "lat": -31.4047523,
+  "lon": -62.6303154,
+  "tags": {
+    "addr:city": "La Francia",
+    "addr:housenumber": "91",
+    "addr:postcode": "X2624",
+    "addr:street": "Santa Fe",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "phone": "+54 3564 47 1004"
+  }
+},
+{
+  "type": "node",
+  "id": 8413746113,
+  "lat": -35.5162464,
+  "lon": -58.3169879,
+  "tags": {
+    "addr:city": "Ranchos",
+    "addr:housenumber": "3000",
+    "addr:postcode": "1987",
+    "addr:street": "Luis Giles",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8454152696,
+  "lat": -34.5894542,
+  "lon": -58.4225214,
+  "tags": {
+    "amenity": "ice_cream",
+    "indoor_seating": "no",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "smoking": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 8459727217,
+  "lat": -32.1645598,
+  "lon": -58.4010469,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8484111298,
+  "lat": -30.9367242,
+  "lon": -64.4933613,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8530336024,
+  "lat": -39.0950013,
+  "lon": -67.0810527,
+  "tags": {
+    "addr:city": "Villa Regina",
+    "addr:housenumber": "87",
+    "addr:postcode": "R8336",
+    "addr:street": "Avenida 9 de Julio",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8660661109,
+  "lat": -27.2618422,
+  "lon": -58.9639360,
+  "tags": {
+    "addr:city": "Margarita Belen",
+    "addr:housenumber": "254",
+    "addr:postcode": "3505",
+    "addr:street": "Domingo Tomassi",
+    "amenity": "ice_cream",
+    "changing_table": "no",
+    "internet_access": "no",
+    "internet_access:fee": "no",
+    "name": "Grido",
+    "not:brand:wikidata": "Q5885724",
+    "outdoor_seating": "yes",
+    "smoking": "no",
+    "toilets:access": "private",
+    "toilets:wheelchair": "no",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8722614664,
+  "lat": -38.7225868,
+  "lon": -62.2645996,
+  "tags": {
+    "addr:city": "Bahía Blanca",
+    "addr:housenumber": "324",
+    "addr:postcode": "B8000",
+    "addr:street": "Brown",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 8821469966,
+  "lat": -32.8518770,
+  "lon": -68.8467809,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8949334422,
+  "lat": -27.2527519,
+  "lon": -55.5326938,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 8986344823,
+  "lat": -32.4534443,
+  "lon": -64.3873347,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9025324623,
+  "lat": -31.9216178,
+  "lon": -64.5772719,
+  "tags": {
+    "addr:street": "Avenida San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9067739467,
+  "lat": -31.3824565,
+  "lon": -58.0142793,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9161401556,
+  "lat": -31.4252472,
+  "lon": -64.1865968,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9163404761,
+  "lat": -29.1555274,
+  "lon": -59.6512391,
+  "tags": {
+    "addr:city": "Reconquista",
+    "addr:street": "Bulevar Lovato",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9163723088,
+  "lat": -34.4612168,
+  "lon": -58.5266845,
+  "tags": {
+    "addr:city": "Beccar",
+    "addr:housenumber": "1871",
+    "addr:postcode": "B1643",
+    "addr:street": "Avenida Centenario",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "check_date": "2024-03-22",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 12:00-00:00",
+    "outdoor_seating": "yes",
+    "payment:cabal": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_debit": "yes",
+    "phone": "+54 11 4707-0110",
+    "takeaway": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9177122696,
+  "lat": -31.4147891,
+  "lon": -64.1788432,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9200272682,
+  "lat": -30.6373397,
+  "lon": -65.3888842,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9207778917,
+  "lat": -31.4209944,
+  "lon": -64.4990757,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9339328153,
+  "lat": -29.1630639,
+  "lon": -67.4955950,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9422914202,
+  "lat": -34.6096788,
+  "lon": -58.7684647,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9432361591,
+  "lat": -31.3976117,
+  "lon": -64.1615382,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9432364662,
+  "lat": -34.6433710,
+  "lon": -58.7889302,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9438615835,
+  "lat": -31.4060765,
+  "lon": -64.2085057,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9496114496,
+  "lat": -32.3032995,
+  "lon": -64.4835220,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9496139237,
+  "lat": -31.4077554,
+  "lon": -64.4773205,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9497124471,
+  "lat": -27.4013193,
+  "lon": -55.9280089,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:country": "AR",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Quaranta",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9512686601,
+  "lat": -26.5356378,
+  "lon": -59.3420507,
+  "tags": {
+    "addr:city": "General José de San Martín",
+    "addr:postcode": "3509",
+    "addr:street": "Sarmiento",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9537695611,
+  "lat": -31.3184959,
+  "lon": -65.0882006,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9576813817,
+  "lat": -32.8454150,
+  "lon": -60.7071260,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9743862597,
+  "lat": -36.6110742,
+  "lon": -64.2808421,
+  "tags": {
+    "addr:city": "Santa Rosa",
+    "addr:housenumber": "502",
+    "addr:postcode": "L6300",
+    "addr:street": "Avenida Agustín Spinetto",
+    "amenity": "ice_cream",
+    "branch": "Santa Rosa - Spinetto",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "contact:facebook": "https://www.facebook.com/gridosantarosalp/",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 12:00-00:00",
+    "outdoor_seating": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9784076071,
+  "lat": -31.3764845,
+  "lon": -64.2069312,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9802757244,
+  "lat": -34.5050673,
+  "lon": -58.4935786,
+  "tags": {
+    "addr:city": "La Lucila",
+    "addr:housenumber": "3305",
+    "addr:postcode": "B1637",
+    "addr:street": "Avenida Maipú",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2024-08-13",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "website": "https://www.argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9810054180,
+  "lat": -38.9464179,
+  "lon": -68.0452642,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "806",
+    "addr:postcode": "Q8300",
+    "addr:street": "Presidente Arturo Illia",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9814735772,
+  "lat": -31.5612987,
+  "lon": -68.5246331,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9866609598,
+  "lat": -32.9849183,
+  "lon": -71.2758773,
+  "tags": {
+    "addr:housenumber": "85",
+    "addr:street": "Avenida José Tomás Urmeneta",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9917400885,
+  "lat": -34.7807249,
+  "lon": -58.4066686,
+  "tags": {
+    "amenity": "ice_cream",
+    "check_date": "2022-07-28",
+    "name": "Grido",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "source": "survey",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9921510152,
+  "lat": -34.8033340,
+  "lon": -58.3783676,
+  "tags": {
+    "addr:city": "Adrogué",
+    "addr:housenumber": "1699",
+    "addr:street": "Avenida General San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9923354062,
+  "lat": -31.4590213,
+  "lon": -64.1683691,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9934840217,
+  "lat": -34.4746215,
+  "lon": -58.6614529,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Sa 12:00-00:00; Su 12:00-24:00",
+    "outdoor_seating": "yes",
+    "survey:date": "2022-08-05",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 9946237158,
+  "lat": -24.1869533,
+  "lon": -65.3197256,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 9948012314,
+  "lat": -33.3553339,
+  "lon": -70.7281653,
+  "tags": {
+    "addr:housenumber": "358",
+    "addr:street": "Avenida Bernardo O'Higgins",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10006527317,
+  "lat": -34.5357251,
+  "lon": -58.5079885,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "survey:date": "2022-09-07",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10045095718,
+  "lat": -31.5335829,
+  "lon": -68.5145736,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido Helados"
+  }
+},
+{
+  "type": "node",
+  "id": 10046348118,
+  "lat": -34.5479166,
+  "lon": -58.5547165,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "sidewalk"
+  }
+},
+{
+  "type": "node",
+  "id": 10057488417,
+  "lat": -34.5551959,
+  "lon": -58.4905429,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Sa 11:00-00:00; Su 11:00-24:00",
+    "outdoor_seating": "sidewalk",
+    "takeaway": "yes",
+    "website": "https://www.argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10058501818,
+  "lat": -34.5272752,
+  "lon": -58.5505176,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10075515203,
+  "lat": -34.4248534,
+  "lon": -58.5746042,
+  "tags": {
+    "addr:city": "Tigre",
+    "addr:postcode": "1648",
+    "addr:street": "Avenida Italia",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "website": "http://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10079106196,
+  "lat": -33.0022080,
+  "lon": -71.2678766,
+  "tags": {
+    "addr:city": "Limache",
+    "addr:street": "Avenida Palmira Romano",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10085999839,
+  "lat": -31.6254915,
+  "lon": -58.5029056,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10104655223,
+  "lat": -31.3780560,
+  "lon": -64.1662456,
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:street": "Avenida Doctor Arturo Capdevila",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10126118617,
+  "lat": -34.4820372,
+  "lon": -58.5557863,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10162557704,
+  "lat": -32.7511546,
+  "lon": -60.7344224,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10174716823,
+  "lat": -34.6723513,
+  "lon": -58.4078933,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10239471210,
+  "lat": -34.5766658,
+  "lon": -58.5040829,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10277144152,
+  "lat": -31.6574569,
+  "lon": -64.4331004,
+  "tags": {
+    "addr:city": "Alta Gracia",
+    "addr:housenumber": "95",
+    "addr:street": "Avenida Belgrano",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2026-02-19",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 10:00-00:00",
+    "phone": "+54 3547 42 9420",
+    "website": "https://www.argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10281538434,
+  "lat": -34.6517590,
+  "lon": -58.5515446,
+  "tags": {
+    "addr:city": "Ramos Mejía",
+    "addr:housenumber": "84",
+    "addr:postcode": "1704",
+    "addr:street": "General Acha",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "drive_through": "no",
+    "name": "Grido",
+    "opening_hours": "Mo-Fr 12:00-24:00; Sa-Su 11:00-24:00",
+    "outdoor_seating": "yes",
+    "payment:app": "yes",
+    "phone": "5989-6899",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10313505511,
+  "lat": -38.0109500,
+  "lon": -57.5446686,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10313834514,
+  "lat": -26.9279514,
+  "lon": -55.0578379,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10538024492,
+  "lat": -30.9832170,
+  "lon": -57.9221103,
+  "tags": {
+    "amenity": "ice_cream",
+    "internet_access": "wlan",
+    "internet_access:ssid": "WiFI Grido",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10565198712,
+  "lat": -31.3826143,
+  "lon": -58.0331099,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10591074353,
+  "lat": -38.9504750,
+  "lon": -68.0792887,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "415",
+    "addr:postcode": "Q8300",
+    "addr:street": "Jorge Monzón",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "no",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10647349817,
+  "lat": -33.5727181,
+  "lon": -70.6652863,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10652576905,
+  "lat": -31.5402666,
+  "lon": -68.4970555,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido Helados",
+    "opening_hours": "Su-Th 12:00-00:00; Fr-Sa 12:00-01:30"
+  }
+},
+{
+  "type": "node",
+  "id": 10692868187,
+  "lat": -31.0986204,
+  "lon": -64.4852142,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10693472207,
+  "lat": -20.2384073,
+  "lon": -70.1446194,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10705666061,
+  "lat": -31.4007625,
+  "lon": -64.1778878,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10772474688,
+  "lat": -34.5662827,
+  "lon": -58.5134672,
+  "tags": {
+    "addr:city": "Villa Maipú",
+    "addr:housenumber": "1164",
+    "addr:postcode": "B1650",
+    "addr:street": "Avenida 44 - Presidente Arturo Umberto Illia",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "level": "0",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10822802790,
+  "lat": -33.4537178,
+  "lon": -70.6880027,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10825864213,
+  "lat": -38.8640498,
+  "lon": -62.0822902,
+  "tags": {
+    "addr:city": "Punta Alta",
+    "addr:housenumber": "1992",
+    "addr:postcode": "8109",
+    "addr:street": "Juan José Paso",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 10:00-00:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10833027378,
+  "lat": -31.7280563,
+  "lon": -64.4145933,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10847787573,
+  "lat": -31.5824140,
+  "lon": -60.9375256,
+  "tags": {
+    "addr:city": "Franck",
+    "addr:housenumber": "2615",
+    "addr:postcode": "3009",
+    "addr:street": "San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "phone": "+54 342 4931466"
+  }
+},
+{
+  "type": "node",
+  "id": 10865927345,
+  "lat": -26.1896468,
+  "lon": -58.1728758,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "ice_cream",
+    "baby_feeding": "no",
+    "changing_table": "no",
+    "indoor_seating": "yes",
+    "name": "Grido",
+    "opening_hours": "Mo-Sa 09:00-22:30; PH closed",
+    "operator": "Grido S.A",
+    "outdoor_seating": "yes",
+    "takeaway": "no",
+    "toilets:access": "private",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 10866033116,
+  "lat": -26.1862067,
+  "lon": -58.1781071,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10916835733,
+  "lat": -31.2610353,
+  "lon": -61.5003192,
+  "tags": {
+    "addr:city": "Rafaela",
+    "addr:housenumber": "583",
+    "addr:postcode": "2300",
+    "addr:street": "Avenida Luis Fanti",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10917033600,
+  "lat": -38.9572437,
+  "lon": -68.0537342,
+  "tags": {
+    "addr:city": "Neuquén",
+    "addr:housenumber": "395",
+    "addr:postcode": "Q8300",
+    "addr:street": "Bartolomé Mitre",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 10925237291,
+  "lat": -34.5705886,
+  "lon": -58.5250376,
+  "tags": {
+    "addr:city": "Villa Maipú",
+    "addr:housenumber": "2471",
+    "addr:postcode": "B1650KBU",
+    "addr:street": "48 - Estrada",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10930809825,
+  "lat": -38.3805665,
+  "lon": -60.2705892,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10938641227,
+  "lat": -31.3655570,
+  "lon": -64.2051001,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10948126967,
+  "lat": -31.4155483,
+  "lon": -64.1720682,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10957817714,
+  "lat": -31.2779064,
+  "lon": -64.4630836,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 10967203349,
+  "lat": -34.5725620,
+  "lon": -58.4836074,
+  "tags": {
+    "amenity": "ice_cream",
+    "check_date": "2023-10-20",
+    "delivery": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "takeaway": "yes",
+    "website": "https://www.argentina.gridohelado.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10998463761,
+  "lat": -27.4517147,
+  "lon": -59.0160837,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11004566870,
+  "lat": -27.2230175,
+  "lon": -61.1830489,
+  "tags": {
+    "addr:street": "Avenida Güemes",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11026993291,
+  "lat": -34.5356523,
+  "lon": -58.4779395,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11048678770,
+  "lat": -24.7927803,
+  "lon": -65.4114368,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11051875913,
+  "lat": -31.6138213,
+  "lon": -60.6964478,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11065599562,
+  "lat": -33.3617582,
+  "lon": -70.7364254,
+  "tags": {
+    "addr:housenumber": "143",
+    "addr:street": "Avenida Santa Luisa",
+    "amenity": "ice_cream",
+    "brand": "Grido Helado",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "indoor_seating": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11160757303,
+  "lat": -31.0613160,
+  "lon": -64.2996239,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2026-05-25",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "panoramax": "fa4e375b-456f-48ed-bc38-ad2c1f3f1b0f"
+  }
+},
+{
+  "type": "node",
+  "id": 11166002164,
+  "lat": -34.6881193,
+  "lon": -58.6134554,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11182234786,
+  "lat": -31.6486711,
+  "lon": -60.7094008,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11215712585,
+  "lat": -32.0756848,
+  "lon": -60.4633840,
+  "tags": {
+    "addr:city": "Libertador San Martín",
+    "addr:housenumber": "126",
+    "addr:postcode": "3103",
+    "addr:street": "25 de Mayo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "phone": "+54 343 4527838"
+  }
+},
+{
+  "type": "node",
+  "id": 11228328936,
+  "lat": -31.5195846,
+  "lon": -68.5798520,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11234878291,
+  "lat": -32.9415468,
+  "lon": -68.8253666,
+  "tags": {
+    "addr:street": "Sarmiento",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "building": "yes",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11247164923,
+  "lat": -34.5751329,
+  "lon": -58.5734274,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "contact:phone": "+54 11 3446 7761",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "level": "0",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11265816297,
+  "lat": -34.6866833,
+  "lon": -58.6905173,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11267857037,
+  "lat": -31.4017647,
+  "lon": -64.1980873,
+  "tags": {
+    "addr:city": "Córdoba",
+    "addr:housenumber": "883",
+    "addr:street": "Avenida Santa Fe",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11268436397,
+  "lat": -35.0807488,
+  "lon": -57.5141332,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11276320465,
+  "lat": -32.0679584,
+  "lon": -64.5803846,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11293585569,
+  "lat": -34.5925185,
+  "lon": -58.4132546,
+  "tags": {
+    "addr:city": "Ciudad Autónoma de Buenos Aires",
+    "addr:country": "AR",
+    "addr:housenumber": "1574",
+    "addr:street": "Avenida Coronel Díaz",
+    "addr:suburb": "Palermo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2024-01-17",
+    "delivery": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "takeaway": "yes",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11304761485,
+  "lat": -26.8445165,
+  "lon": -65.2017985,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11328388131,
+  "lat": -34.6904075,
+  "lon": -58.6895584,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11339134625,
+  "lat": -34.6098476,
+  "lon": -58.5178269,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11413585154,
+  "lat": -34.6461566,
+  "lon": -58.5931035,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11477692396,
+  "lat": -34.5622413,
+  "lon": -58.5490132,
+  "tags": {
+    "addr:city": "San Andrés",
+    "addr:country": "AR",
+    "addr:housenumber": "3454",
+    "addr:postcode": "B1651ATT",
+    "addr:province": "Buenos Aires",
+    "addr:street": "79 - Ayacucho",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "level": "0",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11492317863,
+  "lat": -38.0926158,
+  "lon": -57.5483668,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11508957168,
+  "lat": -34.5506904,
+  "lon": -58.4734373,
+  "tags": {
+    "addr:housenumber": "3690",
+    "addr:street": "Crámer",
+    "amenity": "ice_cream",
+    "check_date": "2025-05-23",
+    "delivery": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "takeaway": "yes",
+    "website": "https://www.gridohelado.com.ar",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 11520835217,
+  "lat": -34.6681764,
+  "lon": -58.6143039,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11555549189,
+  "lat": -36.5348228,
+  "lon": -56.6939080,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2024-01-27",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11658432066,
+  "lat": -34.8915063,
+  "lon": -56.1648388,
+  "tags": {
+    "addr:city": "Montevideo",
+    "addr:country": "UY",
+    "addr:housenumber": "2495",
+    "addr:street": "Presidente Lorenzo Batlle",
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11661789101,
+  "lat": -31.4830200,
+  "lon": -64.5629153,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11673403490,
+  "lat": -34.7811807,
+  "lon": -58.8390447,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11688908256,
+  "lat": -38.1077949,
+  "lon": -57.5767832,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11696496150,
+  "lat": -34.8046699,
+  "lon": -58.4492863,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11736892506,
+  "lat": -27.3458823,
+  "lon": -65.5948853,
+  "tags": {
+    "addr:city": "Concepción",
+    "addr:postcode": "4146",
+    "addr:street": "Rivadavia",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11745969007,
+  "lat": -34.6084442,
+  "lon": -58.4374971,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11759418919,
+  "lat": -34.6419208,
+  "lon": -60.4724440,
+  "tags": {
+    "addr:street": "Almirante Brown",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "outdoor_seating": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11794763044,
+  "lat": -34.7784248,
+  "lon": -58.2639490,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11795631747,
+  "lat": -34.7951602,
+  "lon": -58.2363385,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11825725984,
+  "lat": -34.5685069,
+  "lon": -58.4340768,
+  "tags": {
+    "addr:housenumber": "1750",
+    "addr:street": "Teniente Benjamín Matienzo",
+    "amenity": "ice_cream",
+    "check_date": "2025-08-21",
+    "diet:vegan": "yes",
+    "indoor_seating": "no",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "smoking": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11873426170,
+  "lat": -34.6213744,
+  "lon": -58.4237673,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 00:00-12:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11884765772,
+  "lat": -28.4725750,
+  "lon": -65.7782652,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11897366765,
+  "lat": -28.4599479,
+  "lon": -65.7875647,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 11928094041,
+  "lat": -31.6556236,
+  "lon": -60.7172745,
+  "tags": {
+    "addr:city": "Santa Fe",
+    "addr:housenumber": "3184",
+    "addr:postcode": "S3000",
+    "addr:street": "Avenida General López",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "phone": "+54 0342 471-6000"
+  }
+},
+{
+  "type": "node",
+  "id": 11978769121,
+  "lat": -34.5827437,
+  "lon": -58.4078940,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12010091965,
+  "lat": -34.5873715,
+  "lon": -58.3965791,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12081765210,
+  "lat": -27.4355053,
+  "lon": -55.9155135,
+  "tags": {
+    "addr:city": "Posadas",
+    "addr:postcode": "3300",
+    "addr:street": "Avenida Cocomarola",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12091140135,
+  "lat": -34.8511688,
+  "lon": -58.0767851,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "delivery": "no",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 12:00-24:00",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12098137894,
+  "lat": -34.8710872,
+  "lon": -56.1825037,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12106366073,
+  "lat": -32.0264995,
+  "lon": -65.0296010,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "not:brand:wikidata": "Q5885724"
+  }
+},
+{
+  "type": "node",
+  "id": 12121016021,
+  "lat": -45.9373569,
+  "lon": -67.5585241,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12143339220,
+  "lat": -33.3108565,
+  "lon": -66.3442630,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12180284797,
+  "lat": -27.4540705,
+  "lon": -58.9881581,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12188249815,
+  "lat": -34.9246095,
+  "lon": -58.9508261,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12206151802,
+  "lat": -27.4483420,
+  "lon": -58.7500482,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12220746738,
+  "lat": -33.1103024,
+  "lon": -64.3422601,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12231915244,
+  "lat": -31.5231805,
+  "lon": -68.5243245,
+  "tags": {
+    "addr:city": "San Juan",
+    "addr:housenumber": "938 (N)",
+    "addr:postcode": "J5400EKT",
+    "addr:street": "Tucumán",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12233736112,
+  "lat": -33.0233400,
+  "lon": -71.5553736,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12247354724,
+  "lat": -34.6458557,
+  "lon": -59.4307523,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12287334608,
+  "lat": -33.7363848,
+  "lon": -70.9125186,
+  "tags": {
+    "addr:city": "Isla de Maipo",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12298260801,
+  "lat": -34.6165092,
+  "lon": -58.7065430,
+  "tags": {
+    "addr:street": "Martín Fierro",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12300454078,
+  "lat": -34.6460452,
+  "lon": -56.0676296,
+  "tags": {
+    "amenity": "ice_cream",
+    "indoor_seating": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12327808381,
+  "lat": -31.7439414,
+  "lon": -62.8910033,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12396954291,
+  "lat": -37.2554639,
+  "lon": -56.9679214,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2024-12-04",
+    "cuisine": "ice_cream",
+    "indoor_seating": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12407512162,
+  "lat": -33.7590030,
+  "lon": -61.9616566,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12417817387,
+  "lat": -34.8963072,
+  "lon": -54.9537008,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12423328403,
+  "lat": -31.6354112,
+  "lon": -60.7153270,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12426815095,
+  "lat": -33.7497707,
+  "lon": -61.9637353,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2025-05-27",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12444842295,
+  "lat": -27.8060144,
+  "lon": -64.2896883,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12499998082,
+  "lat": -31.5726810,
+  "lon": -66.2383264,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12501380886,
+  "lat": -23.4076494,
+  "lon": -57.4443199,
+  "tags": {
+    "amenity": "ice_cream",
+    "entrance": "yes",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12503312006,
+  "lat": -36.7230073,
+  "lon": -56.6763334,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12504535801,
+  "lat": -34.6557933,
+  "lon": -58.6676364,
+  "tags": {
+    "addr:street": "Las Heras",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12505421232,
+  "lat": -32.2325491,
+  "lon": -65.8043665,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12511746611,
+  "lat": -34.6559923,
+  "lon": -58.5626174,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12521915143,
+  "lat": -34.6804832,
+  "lon": -58.5383186,
+  "tags": {
+    "addr:city": "La Tablada",
+    "addr:housenumber": "4435",
+    "addr:street": "Coronel Brandsen",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 12:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 12535179438,
+  "lat": -38.7120553,
+  "lon": -62.2619798,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2025-01-26",
+    "cuisine": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12582520757,
+  "lat": -31.5514612,
+  "lon": -68.5327118,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12594105602,
+  "lat": -38.1730560,
+  "lon": -57.6434552,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12618277843,
+  "lat": -32.3466625,
+  "lon": -65.0036956,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12618679801,
+  "lat": -23.5773375,
+  "lon": -65.3930922,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12648079621,
+  "lat": -34.5247097,
+  "lon": -58.4855693,
+  "tags": {
+    "addr:housenumber": "1621",
+    "addr:street": "General José de San Martín",
+    "amenity": "ice_cream",
+    "check_date": "2026-02-04",
+    "delivery": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "takeaway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12650511934,
+  "lat": -37.8484597,
+  "lon": -58.2584998,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12673102197,
+  "lat": -33.5831268,
+  "lon": -70.6303920,
+  "tags": {
+    "addr:city": "La Pintana",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12673540391,
+  "lat": -33.4047613,
+  "lon": -70.7086182,
+  "tags": {
+    "addr:city": "Renca",
+    "addr:street": "Avenida Domingo Santa María",
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 11:00-20:30",
+    "phone": "9 4212 3686",
+    "website": "https://chile.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12705267611,
+  "lat": -38.1132336,
+  "lon": -57.8406626,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12740554398,
+  "lat": -31.1674643,
+  "lon": -64.3199569,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12800692968,
+  "lat": -32.8939832,
+  "lon": -60.7132270,
+  "tags": {
+    "alt_name": "Grido Helados",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "building": "retail",
+    "cuisine": "ice_cream",
+    "delivery": "yes",
+    "indoor_seating": "yes",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12833535847,
+  "lat": -34.6278290,
+  "lon": -58.4648436,
+  "tags": {
+    "addr:city": "Flores",
+    "addr:housenumber": "110",
+    "addr:postcode": "1406",
+    "addr:street": "General José Gervasio Artigas",
+    "air_conditioning": "yes",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2026-03-12",
+    "delivery": "yes",
+    "diet:vegan": "yes",
+    "indoor_seating": "yes",
+    "name": "Grido",
+    "opening_hours": "12:00-23:30",
+    "outdoor_seating": "no",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "smoking": "no",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12860749935,
+  "lat": -33.2933294,
+  "lon": -66.3386397,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido",
+    "opening_hours": "Su-Th 11:00-23:00; Fr,Sa 11:00-12:00"
+  }
+},
+{
+  "type": "node",
+  "id": 12861885085,
+  "lat": -31.0074803,
+  "lon": -64.2657543,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2026-05-10",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 12980000779,
+  "lat": -31.1205087,
+  "lon": -64.2941322,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2025-11-18",
+    "name": "Grido",
+    "panoramax": "c5ab8028-b794-48ec-af17-19c07c73558c"
+  }
+},
+{
+  "type": "node",
+  "id": 12988522401,
+  "lat": -34.6378326,
+  "lon": -58.7005258,
+  "tags": {
+    "addr:street": "Intendente Carlos Ratti",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13014666857,
+  "lat": -33.4536633,
+  "lon": -70.6104762,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13037679032,
+  "lat": -31.4192527,
+  "lon": -64.1915661,
+  "tags": {
+    "amenity": "ice_cream",
+    "check_date": "2025-04-11",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13088381629,
+  "lat": -34.6358474,
+  "lon": -58.4896328,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13122004585,
+  "lat": -34.6271930,
+  "lon": -58.5926484,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido",
+    "outdoor_seating": "no",
+    "source": "Reconocimiento terrestre por Kaart 2016"
+  }
+},
+{
+  "type": "node",
+  "id": 13126360701,
+  "lat": -37.4583904,
+  "lon": -61.9290935,
+  "tags": {
+    "addr:street": "Junín",
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "Mo-Su 08:00-24:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13135161709,
+  "lat": -33.0538487,
+  "lon": -65.6208457,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13188024813,
+  "lat": -40.7603920,
+  "lon": -71.6435922,
+  "tags": {
+    "addr:city": "Villa La Angostura",
+    "addr:housenumber": "182",
+    "addr:postcode": "Q8407",
+    "addr:street": "Los Notros",
+    "addr:unit": "3",
+    "amenity": "ice_cream",
+    "branch": "Villa La Angostura",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido",
+    "opening_hours": "Mo-Sa 09:00-21:00",
+    "outdoor_seating": "yes",
+    "takeaway": "yes",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13233625404,
+  "lat": -27.7125939,
+  "lon": -67.1371011,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13252941316,
+  "lat": -33.3825721,
+  "lon": -70.7288005,
+  "tags": {
+    "addr:city": "Quilicura",
+    "addr:housenumber": "1515",
+    "addr:street": "Valle Lo Campino Sur",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13302795101,
+  "lat": -37.4589793,
+  "lon": -61.9385025,
+  "tags": {
+    "addr:postcode": "7540",
+    "addr:street": "Mitre",
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 13327409101,
+  "lat": -33.0174710,
+  "lon": -58.4757545,
+  "tags": {
+    "addr:street": "Ruta Provincial 42",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13332407282,
+  "lat": -32.8118337,
+  "lon": -66.0943200,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13332752501,
+  "lat": -27.0701158,
+  "lon": -55.6427141,
+  "tags": {
+    "addr:housenumber": "2380",
+    "addr:postcode": "071402",
+    "addr:street": "San Roque González de Santa Cruz",
+    "amenity": "ice_cream",
+    "internet_access": "wlan",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13360965854,
+  "lat": -38.0685697,
+  "lon": -57.5602785,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13390932840,
+  "lat": -34.6255448,
+  "lon": -58.4156619,
+  "tags": {
+    "addr:housenumber": "3586",
+    "addr:street": "Avenida San Juan",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2025-12-20",
+    "name": "Grido",
+    "outdoor_seating": "yes",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13461715254,
+  "lat": -34.5103268,
+  "lon": -58.5671641,
+  "tags": {
+    "addr:housenumber": "75",
+    "addr:street": "Padre Castiglia",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2026-01-17",
+    "name": "Grido",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13523336941,
+  "lat": -36.4975097,
+  "lon": -56.6926168,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13525315392,
+  "lat": -34.6397519,
+  "lon": -58.4816877,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13613110909,
+  "lat": -24.7960505,
+  "lon": -65.4786167,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido",
+    "opening_hours": "Mo-Sa 09:00-21:30; Su 09:30-20:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13619009901,
+  "lat": -34.5842240,
+  "lon": -58.4547031,
+  "tags": {
+    "addr:street": "Avenida Forest",
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13656742301,
+  "lat": -23.2043204,
+  "lon": -65.3484044,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13664423901,
+  "lat": -26.0701055,
+  "lon": -65.9749035,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13689409802,
+  "lat": -29.3041966,
+  "lon": -67.5046101,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "check_date": "2026-03-29",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13697072365,
+  "lat": -34.5811442,
+  "lon": -58.4941818,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13699942602,
+  "lat": -34.9117697,
+  "lon": -56.1702831,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13724714494,
+  "lat": -25.2605834,
+  "lon": -57.5811558,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "brand:wikipedia": "es:Grido Helado",
+    "cuisine": "ice_cream",
+    "name": "Grido",
+    "source": "TALLER URBANO - GRUPO 8"
+  }
+},
+{
+  "type": "node",
+  "id": 13736559916,
+  "lat": -34.6153741,
+  "lon": -58.4784795,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13751877097,
+  "lat": -34.6547442,
+  "lon": -59.4332436,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "level": "0",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13753101880,
+  "lat": -31.4295153,
+  "lon": -62.0843014,
+  "tags": {
+    "addr:city": "San Francisco",
+    "addr:housenumber": "1630",
+    "addr:postcode": "2400",
+    "addr:street": "Bulevard 25 de Mayo",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13759011505,
+  "lat": -33.6839507,
+  "lon": -65.4667033,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13763994601,
+  "lat": -40.7305660,
+  "lon": -64.9427314,
+  "tags": {
+    "amenity": "ice_cream",
+    "check_date": "2026-04-26",
+    "internet_access": "wlan",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13767188714,
+  "lat": -33.6796651,
+  "lon": -65.4634981,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13771289565,
+  "lat": -33.6638367,
+  "lon": -65.4587810,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13775704702,
+  "lat": -33.6697466,
+  "lon": -65.4491954,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13792610743,
+  "lat": -33.3241670,
+  "lon": -62.0384486,
+  "tags": {
+    "addr:city": "Chañar Ladeado",
+    "addr:housenumber": "561",
+    "addr:postcode": "2643",
+    "addr:street": "Avenida San Martín",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido",
+    "website": "https://argentina.gridohelado.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13806045388,
+  "lat": -31.4283564,
+  "lon": -62.0933033,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "delivery": "yes",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13827836504,
+  "lat": -33.6764661,
+  "lon": -65.4636001,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13831363343,
+  "lat": -31.4355772,
+  "lon": -62.0850556,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13836660324,
+  "lat": -36.5889482,
+  "lon": -72.0600847,
+  "tags": {
+    "addr:city": "Chillán",
+    "addr:housename": "Espacio del Real",
+    "addr:housenumber": "53",
+    "addr:street": "Jardín del Este",
+    "amenity": "ice_cream",
+    "instagram": "grido.jardindeleste",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13869128303,
+  "lat": -28.0446569,
+  "lon": -58.2293507,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13902974230,
+  "lat": -33.0464559,
+  "lon": -71.4383603,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13943583666,
+  "lat": -31.3628607,
+  "lon": -64.2276268,
+  "tags": {
+    "addr:housenumber": "4036",
+    "addr:street": "Avenida La Cordillera",
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13959096283,
+  "lat": -31.4491067,
+  "lon": -64.1992820,
+  "tags": {
+    "amenity": "ice_cream",
+    "brand": "Grido",
+    "brand:wikidata": "Q5885724",
+    "name": "Grido"
+  }
+},
+{
+  "type": "node",
+  "id": 13962875163,
+  "lat": -31.3456495,
+  "lon": -65.0800735,
+  "tags": {
+    "amenity": "ice_cream",
+    "name": "Grido"
+  }
+}
+
+  ]
+}
