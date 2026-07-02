@@ -1,6 +1,7 @@
 #ifndef RTREE_HPP
 #define RTREE_HPP
 
+#include "minheap.hpp"
 #include "vector.hpp"
 
 #include <cmath>
@@ -169,7 +170,74 @@ struct RTree {
     }
     return result;
   } // Busca objetos dentro del rectangulo
-  Vector<Entry> knn(double x, double y, int k); // K nearest Neighbors
+
+  // mini using solamente porque esa cosa se escribe bien feo
+  using NodeEntry = std::pair<double, RTNode *>;
+  using LeafEntry = std::pair<double, Entry>;
+
+  Vector<Entry> knn(double x, double y, int k) {
+    Vector<Entry> result;
+    if (root == nullptr)
+      return result;
+
+    struct ByDistNode {
+      bool operator()(const NodeEntry &a, const NodeEntry &b) {
+        return a.first < b.first; // min-heap: nodo mas cercano primero
+      }
+    };
+    struct ByDistLeafMax {
+      bool operator()(const LeafEntry &a, const LeafEntry &b) {
+        return a.first > b.first; // max-heap: peor vecino en el top
+      }
+    };
+
+    MinHeap<NodeEntry, ByDistNode> nodeHeap;
+    MinHeap<LeafEntry, ByDistLeafMax> leafHeap; // guarda solo los k mejores
+
+    nodeHeap.push({root->mbr.distanceTo(x, y), root});
+
+    while (!nodeHeap.empty()) {
+      auto [dist, node] = nodeHeap.pop();
+
+      // poda: si el nodo esta mas lejos que el peor vecino actual, no sirve
+      if ((int)leafHeap.size() >= k && dist > leafHeap.top().first)
+        break;
+
+      if (node->isLeaf) {
+        for (size_t i = 0; i < node->entries.size(); i++) {
+          Entry &e = node->entries[i];
+          double d = e.mbr.distanceTo(x, y);
+          if ((int)leafHeap.size() < k) {
+            leafHeap.push({d, e});
+          } else if (d < leafHeap.top().first) {
+            // encontramos uno mejor que el peor actual
+            leafHeap.pop();
+            leafHeap.push({d, e});
+          }
+        }
+      } else {
+        for (size_t i = 0; i < node->entries.size(); i++) {
+          Entry &e = node->entries[i];
+          double d = e.mbr.distanceTo(x, y);
+          nodeHeap.push({d, e.child});
+        }
+      }
+    }
+
+    // extraemos del peor al mejor, luego invertimos
+    while (!leafHeap.empty()) {
+      result.push_back(leafHeap.pop().second);
+    }
+
+    // result esta en orden de mayor a menor distancia, invertimos
+    for (size_t i = 0; i < result.size() / 2; i++) {
+      Entry temp = result[i];
+      result[i] = result[result.size() - 1 - i];
+      result[result.size() - 1 - i] = temp;
+    }
+
+    return result;
+  } // K nearest Neighbors
 
 private:
   RTNode *chooseLeaf(const MBR &mbr) {
