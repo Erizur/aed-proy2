@@ -93,6 +93,18 @@ struct RTree {
     root->parent = nullptr;
   }
 
+  ~RTree() { deleteNode(root); }
+
+  void deleteNode(RTNode *node) {
+    if (node == nullptr)
+      return;
+    if (!node->isLeaf) {
+      for (size_t i = 0; i < node->entries.size(); i++)
+        deleteNode(node->entries[i].child);
+    }
+    delete node;
+  }
+
   void insert(int id, const std::string &name, double x, double y,
               const std::string &category) {
     MBR mbr = pointMBR(x, y);
@@ -372,6 +384,20 @@ private:
     updateMBR(groupA);
     updateMBR(groupB);
 
+    // actualizar parent de los hijos si es nodo interno
+    // splitNode copia las entries por valor, pero los hijos siguen
+    // apuntando al nodo original que sera eliminado por el caller
+    if (!groupA->isLeaf) {
+      for (size_t i = 0; i < groupA->entries.size(); i++)
+        if (groupA->entries[i].child != nullptr)
+          groupA->entries[i].child->parent = groupA;
+    }
+    if (!groupB->isLeaf) {
+      for (size_t i = 0; i < groupB->entries.size(); i++)
+        if (groupB->entries[i].child != nullptr)
+          groupB->entries[i].child->parent = groupB;
+    }
+
     return {groupA, groupB};
   } // Divide un nodo con overflow
 
@@ -424,18 +450,22 @@ private:
 
         if ((int)parent->entries.size() > maxSize) {
           auto [splitA, splitB] = splitNode(parent);
-          splitA->parent = parent->parent;
-          splitB->parent = parent->parent;
-          // reemplazar parent en el abuelo
-          if (parent->parent != nullptr) {
-            for (size_t i = 0; i < parent->parent->entries.size(); i++) {
-              if (parent->parent->entries[i].child == parent) {
-                parent->parent->entries[i].child = splitA;
-                parent->parent->entries[i].mbr = splitA->mbr;
+          RTNode *grandpa = parent->parent;
+          splitA->parent = grandpa;
+          splitB->parent = grandpa;
+
+          if (grandpa != nullptr) {
+            for (size_t i = 0; i < grandpa->entries.size(); i++) {
+              if (grandpa->entries[i].child == parent) {
+                grandpa->entries[i].child = splitA;
+                grandpa->entries[i].mbr = splitA->mbr;
                 break;
               }
             }
+          } else {
+            root = splitA;
           }
+
           delete parent;
           parent = splitA;
           nextNew = splitB;

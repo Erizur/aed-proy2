@@ -91,15 +91,15 @@ public:
     cur_size--;
   }
 
-  T operator[](size_t idx) const {
+  T &operator[](size_t idx) {
     if (idx >= cur_size)
       throw std::out_of_range("Vector index out of bounds");
     return data[idx];
   }
 
-  T &operator[](size_t idx) {
+  const T& operator[](size_t idx) const {
     if (idx >= cur_size)
-      throw std::out_of_range("Vector index out of bounds");
+        throw std::out_of_range("Vector index out of bounds");
     return data[idx];
   }
 
