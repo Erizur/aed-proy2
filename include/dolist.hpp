@@ -53,7 +53,6 @@ public:
   DoNode<T> *head = nullptr;
   DoNode<T> *tail = nullptr;
 
-  // C++ seems to complain about this...
   DoList() = default;
 
   DoList(DoList<T> &&list) noexcept : DoList() {

@@ -32,8 +32,9 @@ assets/              datasets: cities15000.txt (GeoNames) y grido.json (OSM)
 
 ## Integrantes
 
-- Alvaro Dasso
-- <!-- agregar integrantes -->
+- Castillo Prado, Leonardo Humberto
+- Mattos Gutierrez, Angel Daniel
+- Dasso Arana, Alvaro Jose
 
 ## Compilación
 
