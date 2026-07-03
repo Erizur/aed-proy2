@@ -5,6 +5,7 @@
 #include "vector.hpp"
 
 #include <cmath>
+#include <limits>  // std::numeric_limits, usado en chooseLeaf y splitNode
 #include <string>
 #include <utility> // std::pair, usado en splitNode
 
@@ -80,11 +81,14 @@ struct RTNode {
   RTNode *parent = nullptr; // Padre del nodo para actualizar MBRs hacia arriba
 };
 
-// TODO: terminar el rtree pq falta
 struct RTree {
   RTNode *root = nullptr;
   int maxSize; // Maximo de entradas permitidas por nodo
   int minSize;
+
+  // estadisticas de la ultima consulta (rangeQuery o knn)
+  int lastVisited = 0;     // nodos del arbol visitados en la ultima consulta
+  Vector<MBR> visitedMBRs; // MBRs de los nodos visitados, para dibujarlos
 
   RTree(int maxEntries = 4) // Constructor(inicializa la raiz)
       : maxSize(maxEntries), minSize((maxEntries + 1) / 2) {
@@ -154,6 +158,9 @@ struct RTree {
     Vector<Entry> result;                 // Guardara las entradas encontradas
     MBR query = {minX, minY, maxX, maxY}; // Crea ek rectangulo de consulta
 
+    lastVisited = 0; // Reinicia las estadisticas de la consulta
+    visitedMBRs = Vector<MBR>();
+
     if (root == nullptr || root->entries.empty())
       return result;        // Si el arbol esta vacio
     Vector<RTNode *> stack; // Usamos un vector como pila de nodos por visitar
@@ -162,7 +169,10 @@ struct RTree {
       RTNode *node = stack[stack.size() - 1]; // Tomamos el ultimo nodo agregado
       stack.pop_back();
 
-      for (int i = 0; i < node->entries.size(); ++i) {
+      lastVisited++; // Contamos cada nodo que realmente se revisa
+      visitedMBRs.push_back(node->mbr);
+
+      for (size_t i = 0; i < node->entries.size(); ++i) {
         Entry &entry =
             node->entries[i]; // Hacemos referencia a la entrada actual
 
@@ -189,6 +199,10 @@ struct RTree {
 
   Vector<Entry> knn(double x, double y, int k) {
     Vector<Entry> result;
+
+    lastVisited = 0; // Reinicia las estadisticas de la consulta
+    visitedMBRs = Vector<MBR>();
+
     if (root == nullptr)
       return result;
 
@@ -214,6 +228,9 @@ struct RTree {
       // poda: si el nodo esta mas lejos que el peor vecino actual, no sirve
       if ((int)leafHeap.size() >= k && dist > leafHeap.top().first)
         break;
+
+      lastVisited++; // Solo cuentan los nodos que si se procesan
+      visitedMBRs.push_back(node->mbr);
 
       if (node->isLeaf) {
         for (size_t i = 0; i < node->entries.size(); i++) {
@@ -251,7 +268,123 @@ struct RTree {
     return result;
   } // K nearest Neighbors
 
+  bool remove(int id, double x, double y) {
+    RTNode *leaf = findLeaf(root, id, x, y); // Busca la hoja que lo contiene
+    if (leaf == nullptr)
+      return false; // El objeto no existe en el arbol
+
+    // quitamos la entrada de la hoja
+    bool erased = false;
+    for (size_t i = 0; i < leaf->entries.size(); i++) {
+      const Entry &e = leaf->entries[i];
+      if (e.hasObject && e.obj.id == id && e.obj.x == x && e.obj.y == y) {
+        leaf->entries.erase(i);
+        erased = true;
+        break;
+      }
+    }
+    if (!erased)
+      return false;
+
+    condenseTree(leaf); // Maneja underflow y actualiza MBRs hacia arriba
+
+    // si la raiz quedo interna con un solo hijo, el hijo pasa a ser raiz
+    if (!root->isLeaf && root->entries.size() == 1) {
+      RTNode *oldRoot = root;
+      root = oldRoot->entries[0].child;
+      root->parent = nullptr;
+      delete oldRoot; // delete simple: no recorre hijos como deleteNode
+    }
+    return true;
+  } // Elimina un objeto espacial por id y coordenadas
+
+  int countNodes() const { return countNodes(root); } // Total de nodos
+
 private:
+  int countNodes(RTNode *node) const {
+    if (node == nullptr)
+      return 0;
+    int total = 1;
+    if (!node->isLeaf)
+      for (size_t i = 0; i < node->entries.size(); i++)
+        total += countNodes(node->entries[i].child);
+    return total;
+  }
+
+  RTNode *findLeaf(RTNode *node, int id, double x, double y) {
+    if (node == nullptr)
+      return nullptr;
+
+    if (node->isLeaf) { // En una hoja buscamos el objeto exacto
+      for (size_t i = 0; i < node->entries.size(); i++) {
+        const Entry &e = node->entries[i];
+        if (e.hasObject && e.obj.id == id && e.obj.x == x && e.obj.y == y)
+          return node;
+      }
+      return nullptr;
+    }
+
+    // En nodos internos solo bajamos por hijos cuyo MBR contiene el punto
+    for (size_t i = 0; i < node->entries.size(); i++) {
+      if (node->entries[i].mbr.containsPoint(x, y)) {
+        RTNode *found = findLeaf(node->entries[i].child, id, x, y);
+        if (found != nullptr)
+          return found;
+      }
+    }
+    return nullptr;
+  } // Busca la hoja que contiene un objeto
+
+  void collectObjects(RTNode *node, Vector<SpatialObject> &out) {
+    if (node == nullptr)
+      return;
+    if (node->isLeaf) {
+      for (size_t i = 0; i < node->entries.size(); i++)
+        out.push_back(node->entries[i].obj);
+    } else {
+      for (size_t i = 0; i < node->entries.size(); i++)
+        collectObjects(node->entries[i].child, out);
+    }
+  } // Junta todos los objetos de un subarbol (para reinsertarlos)
+
+  void condenseTree(RTNode *node) {
+    Vector<SpatialObject> orphans; // Objetos que habra que reinsertar
+
+    // Subimos desde la hoja hasta la raiz
+    while (node != root) {
+      RTNode *parent = node->parent;
+
+      if ((int)node->entries.size() < minSize) {
+        // underflow: sacamos el nodo del padre y guardamos sus objetos
+        for (size_t i = 0; i < parent->entries.size(); i++) {
+          if (parent->entries[i].child == node) {
+            parent->entries.erase(i);
+            break;
+          }
+        }
+        collectObjects(node, orphans);
+        deleteNode(node);
+      } else {
+        // sin underflow: solo actualizamos el MBR en el padre
+        updateMBR(node);
+        for (size_t i = 0; i < parent->entries.size(); i++) {
+          if (parent->entries[i].child == node) {
+            parent->entries[i].mbr = node->mbr;
+            break;
+          }
+        }
+      }
+      node = parent;
+    }
+    updateMBR(root);
+
+    // Reinsertamos los objetos huerfanos (estrategia clasica de Guttman)
+    for (size_t i = 0; i < orphans.size(); i++) {
+      const SpatialObject &o = orphans[i];
+      insert(o.id, o.name, o.x, o.y, o.category);
+    }
+  } // Elimina nodos con underflow y reinserta sus objetos
+
   RTNode *chooseLeaf(const MBR &mbr) {
     RTNode *current = root; // La busqueda empieza desde la raiz
 
@@ -264,7 +397,7 @@ private:
       double bestArea =
           std::numeric_limits<double>::infinity(); // Mejor area de desempate
 
-      for (int i = 0; i < current->entries.size();
+      for (size_t i = 0; i < current->entries.size();
            ++i) { // Mira cada entrada del nodo actual
         double enlarge = current->entries[i].mbr.enlarge(
             mbr); // Calcula cuanto crecera ese hijo
@@ -484,7 +617,7 @@ private:
     MBR current =
         node->entries[0].mbr; // Empieza con el MBR de la primera entrada
 
-    for (int i = 1; i < node->entries.size();
+    for (size_t i = 1; i < node->entries.size();
          i++) { // Recorre las demas entradas del nodo
       current = current.expand(node->entries[i].mbr); // Expande el MBR
                                                       // acumulado

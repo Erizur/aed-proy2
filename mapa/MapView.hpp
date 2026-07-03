@@ -7,6 +7,7 @@
 #include "vector.hpp"
 
 #include <chrono>
+#include <cstdio> // snprintf para formatear tiempos
 #include <string>
 
 #include <SDL3/SDL.h>
@@ -15,6 +16,7 @@
 namespace MapColors {
     constexpr Color City       = {100, 149, 237, 180}; // azul clarito
     constexpr Color Heladeria  = {255, 105, 180, 220}; // rosa
+    constexpr Color Custom     = {255, 255, 255, 230}; // punto insertado a mano
     constexpr Color ResultCity = {50,  220, 100, 255}; // verde resultado
     constexpr Color ResultHel  = {255, 220,  50, 255}; // amarillo resultado
     constexpr Color QueryRect  = {255, 200,  50,  60}; // rango drag
@@ -59,6 +61,10 @@ struct MapView {
     bool  hasKNN = false;
     int   knnK   = 5;
 
+    // extras de visualizacion e interaccion
+    bool showMBRs = true;    // dibujar los MBRs visitados en la ultima consulta
+    int  nextId   = 900000;  // ids para puntos insertados a mano
+
     void init(RTree* t, Vector<SpatialObject>* objs) {
         tree    = t;
         objects = objs;
@@ -73,15 +79,36 @@ struct MapView {
             cam.zoom(factor, e.wheel.mouse_x, e.wheel.mouse_y, screenW, screenH);
         }
 
+        if (e.type == SDL_EVENT_KEY_DOWN) {
+            // flechas arriba/abajo: cambiar k del KNN
+            if (e.key.key == SDLK_UP) {
+                knnK++;
+                if (hasKNN) runKNN(screenW, screenH);
+            }
+            if (e.key.key == SDLK_DOWN && knnK > 1) {
+                knnK--;
+                if (hasKNN) runKNN(screenW, screenH);
+            }
+            // M: mostrar/ocultar MBRs visitados
+            if (e.key.key == SDLK_M)
+                showMBRs = !showMBRs;
+        }
+
         if (e.type == SDL_EVENT_MOUSE_BUTTON_DOWN) {
+            bool shift = (SDL_GetModState() & SDL_KMOD_SHIFT) != 0;
+
             // click medio: pan
             if (e.button.button == SDL_BUTTON_MIDDLE) {
                 dragging   = true;
                 dragStartX = e.button.x;
                 dragStartY = e.button.y;
             }
+            // shift + click izquierdo: insertar punto
+            if (e.button.button == SDL_BUTTON_LEFT && shift) {
+                insertAt(e.button.x, e.button.y, screenW, screenH);
+            }
             // click izquierdo: inicio de rangeQuery
-            if (e.button.button == SDL_BUTTON_LEFT) {
+            else if (e.button.button == SDL_BUTTON_LEFT) {
                 selecting  = true;
                 selStartX  = selEndX = e.button.x;
                 selStartY  = selEndY = e.button.y;
@@ -89,8 +116,12 @@ struct MapView {
                 linearResult = Vector<Entry>();
                 currentMode  = QueryMode::None;
             }
+            // shift + click derecho: eliminar el punto mas cercano
+            if (e.button.button == SDL_BUTTON_RIGHT && shift) {
+                deleteNearest(e.button.x, e.button.y, screenW, screenH);
+            }
             // click derecho: KNN
-            if (e.button.button == SDL_BUTTON_RIGHT) {
+            else if (e.button.button == SDL_BUTTON_RIGHT) {
                 knnX   = e.button.x;
                 knnY   = e.button.y;
                 hasKNN = true;
@@ -130,6 +161,48 @@ struct MapView {
         }
     }
 
+    void insertAt(float sx, float sy, float screenW, float screenH) {
+        if (!tree || !objects) return;
+
+        SpatialObject obj;
+        obj.id       = nextId++;
+        obj.name     = "Punto " + std::to_string(obj.id);
+        obj.category = "custom";
+        obj.x        = cam.toWorldX(sx, screenW);
+        obj.y        = cam.toWorldY(sy, screenH);
+
+        objects->push_back(obj);
+        tree->insert(obj.id, obj.name, obj.x, obj.y, obj.category);
+    }
+
+    void deleteNearest(float sx, float sy, float screenW, float screenH) {
+        if (!tree || !objects) return;
+
+        double wx = cam.toWorldX(sx, screenW);
+        double wy = cam.toWorldY(sy, screenH);
+
+        // el vecino mas cercano al click es el que se elimina
+        Vector<Entry> nearest = tree->knn(wx, wy, 1);
+        if (nearest.empty()) return;
+
+        const SpatialObject& victim = nearest[0].obj;
+        if (!tree->remove(victim.id, victim.x, victim.y)) return;
+
+        // tambien lo sacamos del vector usado por la busqueda lineal
+        for (size_t i = 0; i < objects->size(); i++) {
+            if ((*objects)[i].id == victim.id) {
+                objects->erase(i);
+                break;
+            }
+        }
+
+        // limpiamos resultados que podrian referenciar al objeto borrado
+        rtreeResult  = Vector<Entry>();
+        linearResult = Vector<Entry>();
+        currentMode  = QueryMode::None;
+        hasKNN       = false;
+    }
+
     void runRangeQuery(float screenW, float screenH) {
         if (!tree || !objects) return;
         currentMode = QueryMode::Range;
@@ -156,6 +229,7 @@ struct MapView {
         auto t1 = std::chrono::high_resolution_clock::now();
         stats.rtreeTimeMs  = std::chrono::duration<double, std::milli>(t1 - t0).count();
         stats.rtreeResults = (int)rtreeResult.size();
+        stats.rtreeVisited = tree->lastVisited;
 
         // busqueda lineal
         linearResult = Vector<Entry>();
@@ -191,6 +265,7 @@ struct MapView {
         auto t1 = std::chrono::high_resolution_clock::now();
         stats.rtreeTimeMs  = std::chrono::duration<double, std::milli>(t1 - t0).count();
         stats.rtreeResults = (int)rtreeResult.size();
+        stats.rtreeVisited = tree->lastVisited;
 
         // busqueda lineal KNN: ordenar por distancia y tomar k
         // usamos un vector simple y ordenamos al final
@@ -229,6 +304,22 @@ struct MapView {
     }
 
     void render(Window& win, float screenW, float screenH) {
+        // MBRs de los nodos visitados en la ultima consulta
+        if (showMBRs && tree && currentMode != QueryMode::None) {
+            for (size_t i = 0; i < tree->visitedMBRs.size(); i++) {
+                const MBR& m = tree->visitedMBRs[i];
+                float x1 = cam.toScreenX(m.minX, screenW);
+                float y1 = cam.toScreenY(m.maxY, screenH); // maxY arriba
+                float x2 = cam.toScreenX(m.maxX, screenW);
+                float y2 = cam.toScreenY(m.minY, screenH);
+                if (x2 < 0 || x1 > screenW || y2 < 0 || y1 > screenH)
+                    continue; // fuera de pantalla
+                Rect r = {x1, y1, x2 - x1, y2 - y1};
+                // solo borde: con relleno los MBRs grandes tapan todo el mapa
+                win.DrawRect(r, {0, 0, 0, 0}, MapColors::MBRBorder, 1);
+            }
+        }
+
         // puntos base
         for (size_t i = 0; i < objects->size(); i++) {
             const SpatialObject& obj = (*objects)[i];
@@ -238,7 +329,8 @@ struct MapView {
                 continue; // fuera de pantalla, no dibujar
 
             Color c = (obj.category == "heladeria") ? MapColors::Heladeria
-                                                     : MapColors::City;
+                    : (obj.category == "custom")    ? MapColors::Custom
+                                                    : MapColors::City;
             Rect r = {sx - 2, sy - 2, 4, 4};
             win.DrawRect(r, c, c, 0);
         }
@@ -295,6 +387,13 @@ struct MapView {
         }
     }
 
+    // formatea un double con 3 decimales (los tiempos suelen ser < 1 ms)
+    static std::string fmtMs(double v) {
+        char buf[32];
+        std::snprintf(buf, sizeof(buf), "%.3f", v);
+        return std::string(buf);
+    }
+
     // panel de stats para dibujar aparte
     void renderStats(Window& win, float x, float y) {
         if (currentMode == QueryMode::None) return;
@@ -305,10 +404,11 @@ struct MapView {
 
         std::string mode = currentMode == QueryMode::Range ? "Range Query" : "KNN (k=" + std::to_string(knnK) + ")";
         line("[ " + mode + " ]", 0);
-        line("R-Tree:  " + std::to_string((int)stats.rtreeTimeMs)  + " ms  |  " +
+        line("R-Tree:  " + fmtMs(stats.rtreeTimeMs)  + " ms  |  " +
              std::to_string(stats.rtreeResults) + " resultados", 20);
-        line("Lineal:  " + std::to_string((int)stats.linearTimeMs) + " ms  |  " +
+        line("Lineal:  " + fmtMs(stats.linearTimeMs) + " ms  |  " +
              std::to_string(stats.linearResults) + " resultados", 40);
-        line("Nodos visitados (lineal): " + std::to_string(stats.linearVisited), 60);
+        line("Nodos visitados R-Tree: " + std::to_string(stats.rtreeVisited) +
+             "  |  Elementos lineal: " + std::to_string(stats.linearVisited), 60);
     }
 };

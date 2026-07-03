@@ -14,7 +14,7 @@ template <typename T> struct DoNode {
 
 template <typename T> struct DoIterator {
   DoNode<T> *node;
-  DoIterator<T>(DoNode<T> *n) : node(n) {}
+  DoIterator(DoNode<T> *n) : node(n) {}
 
   T &operator*() { return node->data; }
   DoIterator<T> &operator++() {
@@ -53,10 +53,9 @@ public:
   DoNode<T> *head = nullptr;
   DoNode<T> *tail = nullptr;
 
-  // C++ seems to complain about this...
-  DoList<T>() = default;
+  DoList() = default;
 
-  DoList<T>(DoList<T> &&list) noexcept : DoList<T>() {
+  DoList(DoList<T> &&list) noexcept : DoList() {
     std::swap(head, list.head);
     std::swap(tail, list.tail);
     std::swap(count, list.count);
@@ -70,7 +69,7 @@ public:
     }
   }
 
-  ~DoList<T>() { clear(); }
+  ~DoList() { clear(); }
 
   [[nodiscard]] size_t size() const { return count; };
   [[nodiscard]] bool empty() const { return count < 1; };

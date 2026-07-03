@@ -14,13 +14,13 @@ public:
   using iterator = T *;
   using const_iterator = const T *;
 
-  Vector<T>() {
+  Vector() {
     big_size = 2;
     cur_size = 0;
     data = new T[big_size];
   };
 
-  Vector<T>(const Vector<T> &vec) {
+  Vector(const Vector<T> &vec) {
     big_size = vec.capacity();
     cur_size = vec.size();
     data = new T[big_size];
@@ -30,13 +30,13 @@ public:
     }
   };
 
-  Vector<T>(Vector<T> &&vec) noexcept : Vector<T>() {
+  Vector(Vector<T> &&vec) noexcept : Vector() {
     std::swap(data, vec.data);
     std::swap(big_size, vec.big_size);
     std::swap(cur_size, vec.cur_size);
   }
 
-  ~Vector<T>() { delete[] std::exchange(data, nullptr); };
+  ~Vector() { delete[] std::exchange(data, nullptr); };
 
   void resize(size_t a) {
     if (a < big_size)
