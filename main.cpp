@@ -1,7 +1,9 @@
+#include "Defines.hpp"
 #define SDL_MAIN_USE_CALLBACKS
 #include <SDL3/SDL_events.h>
 #include <SDL3/SDL_init.h>
 #include <SDL3/SDL_main.h>
+#include <SDL3_image/SDL_image.h>
 
 #include <string>
 
@@ -47,9 +49,29 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
   std::string assetDir = std::string(SDL_GetBasePath()) + "assets/";
 #endif
 
+  SDL_Texture *pointSprite = nullptr;
+  SDL_Texture *gridoSprite = nullptr;
+
+  SDL_Surface *s1 = IMG_Load((assetDir + "normal.png").c_str());
+  if (s1) {
+    pointSprite = SDL_CreateTextureFromSurface(app->win.GetRenderer(), s1);
+    SDL_DestroySurface(s1);
+  } else {
+    SDL_Log("No se pudo cargar normal.png");
+  }
+
+  SDL_Surface *s2 = IMG_Load((assetDir + "grido-dance.png").c_str());
+  if (s2) {
+    gridoSprite = SDL_CreateTextureFromSurface(app->win.GetRenderer(), s2);
+    SDL_DestroySurface(s2);
+  } else {
+    SDL_Log("No se pudo cargar grido-dance.png");
+  }
+
+  app->mapView.setSprites(pointSprite, gridoSprite);
+
   SDL_Log("Cargando cities1000...");
-  Vector<SpatialObject> cities =
-      loadGeoNames(assetDir + "cities1000.txt", -1);
+  Vector<SpatialObject> cities = loadGeoNames(assetDir + "cities1000.txt", -1);
   SDL_Log("Ciudades cargadas: %d", (int)cities.size());
 
   SDL_Log("Cargando grido.json...");
@@ -106,6 +128,7 @@ SDL_AppResult SDL_AppIterate(void *appstate) {
     app->tileCache.uploadReady();
 
     app->mapView.renderTiles(app->win, app->tileCache, w, h);
+    app->mapView.renderMBRs(app->win, w, h);
     app->mapView.render(app->win, w, h);
 
     // panel de stats en esquina inferior izquierda
@@ -122,15 +145,16 @@ SDL_AppResult SDL_AppIterate(void *appstate) {
     app->win.DrawText("□ MBR visitado", lx, 84, MapColors::MBRBorder, 14);
 
     // instrucciones esquina superior izquierda
-    app->win.DrawText("Drag izq: Range Query", 10, 12, Colors::MidGray, 14);
-    app->win.DrawText("Click der: KNN", 10, 30, Colors::MidGray, 14);
-    app->win.DrawText("Shift+Click izq: Insertar", 10, 48, Colors::MidGray, 14);
-    app->win.DrawText("Shift+Click der: Eliminar", 10, 66, Colors::MidGray, 14);
-    app->win.DrawText("Flechas arr/abj: cambiar k", 10, 84, Colors::MidGray,
+    app->win.DrawText("Drag izq: Range Query", 10, 12, Colors::DarkGray, 14);
+    app->win.DrawText("Click der: KNN", 10, 30, Colors::DarkGray, 14);
+    app->win.DrawText("Shift+Click izq: Insertar", 10, 48, Colors::DarkGray, 14);
+    app->win.DrawText("Shift+Click der: Eliminar", 10, 66, Colors::DarkGray, 14);
+    app->win.DrawText("Flechas arr/abj: cambiar k", 10, 84, Colors::DarkGray,
                       14);
-    app->win.DrawText("M: MBRs on/off", 10, 102, Colors::MidGray, 14);
+    app->win.DrawText("M: MBRs on/off", 10, 102, Colors::DarkGray, 14);
     app->win.DrawText("Scroll: Zoom | Click medio: Pan", 10, 120,
-                      Colors::MidGray, 14);
+                      Colors::DarkGray, 14);
+    app->win.DrawText("Espacio: baile", 10, 138, Colors::DarkGray, 14);
   }
 
   app->win.EndFrame();

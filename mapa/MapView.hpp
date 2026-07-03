@@ -83,6 +83,70 @@ struct MapView {
   bool showMBRs = true; // dibujar los MBRs visitados en la ultima consulta
   int nextId = 900000;  // ids para puntos insertados a mano
 
+  // sprites: se cargan desde main y se pasan por setSprites
+  SDL_Texture *pointSprite = nullptr;
+  SDL_Texture *gridoSprite = nullptr;
+  bool gridosDancing = false;
+  Uint64 danceStartMs = 0;
+
+  static constexpr int gridoFrames = 76;
+  static constexpr int gridoCols = 8;
+  static constexpr int gridoFrameW = 200;
+  static constexpr int gridoFrameH = 200;
+  static constexpr int gridoStayFrame = 63;
+  static constexpr int gridoFPS = 20;
+  static constexpr int spriteZoom = 8;
+
+  void setSprites(SDL_Texture *pt, SDL_Texture *gr) {
+    pointSprite = pt;
+    gridoSprite = gr;
+  }
+
+  // dibuja un punto: sprite si estamos con zoom alto, cuadrado si no
+  // c es el color de tint para el sprite y el fill del cuadrado
+  void drawPoint(Window &win, float sx, float sy, const std::string &category,
+                 Color c, bool useSprites, int gridoFrame, float baseSize) {
+    if (useSprites) {
+      if (category == "heladeria" && gridoSprite) {
+        int fx = (gridoFrame % gridoCols) * gridoFrameW;
+        int fy = (gridoFrame / gridoCols) * gridoFrameH;
+        SDL_FRect src = {(float)fx, (float)fy, (float)gridoFrameW,
+                         (float)gridoFrameH};
+        // tamaño escala con el zoom, con minimo y maximo
+        float s = (float)std::clamp(cam.scale * 0.08, 8.0, 32.0);
+        SDL_FRect dst = {sx - s / 2, sy - s / 2, s, s};
+        if (c.r != MapColors::Heladeria.r || c.g != MapColors::Heladeria.g ||
+            c.b != MapColors::Heladeria.b) {
+          SDL_SetTextureColorMod(gridoSprite, c.r, c.g, c.b);
+        } else {
+          SDL_SetTextureColorMod(gridoSprite, 255, 255, 255);
+        }
+        SDL_RenderTexture(win.GetRenderer(), gridoSprite, &src, &dst);
+      } else if (pointSprite) {
+        // puntos normales tambien escalan pero mas pequeños
+        float s = (float)std::clamp(cam.scale * 0.06, 8.0, 32.0);
+        SDL_FRect dst = {sx - s / 2, sy - s / 2, s, s};
+        SDL_SetTextureColorMod(pointSprite, c.r, c.g, c.b);
+        SDL_RenderTexture(win.GetRenderer(), pointSprite, nullptr, &dst);
+      } else {
+        Rect r = {sx - baseSize, sy - baseSize, baseSize * 2, baseSize * 2};
+        win.DrawRect(r, c, c, 0);
+      }
+    } else {
+      Rect r = {sx - baseSize, sy - baseSize, baseSize * 2, baseSize * 2};
+      win.DrawRect(r, c, c, 0);
+    }
+  }
+
+  // calcula el frame actual del grido segun tiempo y estado
+  int currentGridoFrame(int idOffset = 0) const {
+    if (!gridosDancing)
+      return gridoStayFrame;
+    Uint64 elapsed = SDL_GetTicks() - danceStartMs;
+    int totalFrames = (int)((elapsed * gridoFPS / 1000));
+    return (totalFrames + idOffset) % gridoFrames;
+  }
+
   void init(RTree *t, Vector<SpatialObject> *objs) {
     tree = t;
     objects = objs;
@@ -111,6 +175,12 @@ struct MapView {
       // M: mostrar/ocultar MBRs visitados
       if (e.key.key == SDLK_M)
         showMBRs = !showMBRs;
+      // Espacio: activar/desactivar baile de los Gridos
+      if (e.key.key == SDLK_SPACE) {
+        gridosDancing = !gridosDancing;
+        if (gridosDancing)
+          danceStartMs = SDL_GetTicks();
+      }
     }
 
     if (e.type == SDL_EVENT_MOUSE_BUTTON_DOWN) {
@@ -310,15 +380,19 @@ struct MapView {
       e.mbr = {obj.x, obj.y, obj.x, obj.y};
       all.push_back({d, e});
     }
-    // insertion sort para los k menores (k es pequeño)
-    for (int i = 1; i < (int)all.size(); i++) {
-      auto key = all[i];
-      int j = i - 1;
-      while (j >= 0 && all[j].first > key.first) {
-        all[j + 1] = all[j];
-        j--;
+    // selection sort parcial: solo los k menores
+    int limit = std::min((int)all.size(), knnK);
+    for (int i = 0; i < limit; i++) {
+      int minIdx = i;
+      for (int j = i + 1; j < (int)all.size(); j++) {
+        if (all[j].first < all[minIdx].first)
+          minIdx = j;
       }
-      all[j + 1] = key;
+      if (minIdx != i) {
+        auto tmp = all[i];
+        all[i] = all[minIdx];
+        all[minIdx] = tmp;
+      }
     }
     auto t3 = std::chrono::high_resolution_clock::now();
     stats.linearTimeMs =
@@ -332,19 +406,26 @@ struct MapView {
   }
 
   void render(Window &win, float screenW, float screenH) {
+    // determinar si usar sprites segun el zoom actual
+    int z = (int)std::clamp(log2(2.0 * M_PI * cam.scale / 256.0), 0.0, 17.0);
+    bool useSprites = (z >= spriteZoom);
+
     // puntos base
     for (size_t i = 0; i < objects->size(); i++) {
       const SpatialObject &obj = (*objects)[i];
       float sx = cam.toScreenX(obj.x, screenW);
       float sy = cam.toScreenY(obj.y, screenH);
-      if (sx < -5 || sx > screenW + 5 || sy < -5 || sy > screenH + 5)
-        continue; // fuera de pantalla, no dibujar
+      // margen mas grande porque los sprites son mas grandes que los puntos
+      float margin = useSprites ? 100.0f : 5.0f;
+      if (sx < -margin || sx > screenW + margin || sy < -margin ||
+          sy > screenH + margin)
+        continue;
 
       Color c = (obj.category == "heladeria") ? MapColors::Heladeria
                 : (obj.category == "custom")  ? MapColors::Custom
                                               : MapColors::City;
-      Rect r = {sx - 2, sy - 2, 4, 4};
-      win.DrawRect(r, c, c, 0);
+      int localFrame = currentGridoFrame(obj.id);
+      drawPoint(win, sx, sy, obj.category, c, useSprites, localFrame, 2.0f);
     }
 
     // rectangulo de seleccion mientras se arrastra
@@ -354,7 +435,7 @@ struct MapView {
       float w = std::abs(selEndX - selStartX);
       float h = std::abs(selEndY - selStartY);
       Rect sel = {x1, y1, w, h};
-      win.DrawRect(sel, MapColors::QueryRect, MapColors::QueryBorder, 1);
+      win.DrawRectAlpha(sel, MapColors::QueryRect, MapColors::QueryBorder, 2);
     }
 
     // resultados rangeQuery
@@ -374,8 +455,8 @@ struct MapView {
         float sy = cam.toScreenY(obj.y, screenH);
         Color c = (obj.category == "heladeria") ? MapColors::ResultHel
                                                 : MapColors::ResultCity;
-        Rect r = {sx - 4, sy - 4, 8, 8};
-        win.DrawRect(r, c, c, 0);
+        int localFrame = currentGridoFrame(obj.id);
+        drawPoint(win, sx, sy, obj.category, c, useSprites, localFrame, 4.0f);
       }
     }
 
@@ -391,10 +472,10 @@ struct MapView {
         float sx = cam.toScreenX(obj.x, screenW);
         float sy = cam.toScreenY(obj.y, screenH);
         win.DrawLine(knnX, knnY, sx, sy, MapColors::KNNPoint);
-        Rect r = {sx - 5, sy - 5, 10, 10};
         Color c = (obj.category == "heladeria") ? MapColors::ResultHel
                                                 : MapColors::ResultCity;
-        win.DrawRect(r, c, c, 0);
+        int localFrame = currentGridoFrame(obj.id);
+        drawPoint(win, sx, sy, obj.category, c, useSprites, localFrame, 5.0f);
       }
     }
   }
@@ -442,7 +523,7 @@ struct MapView {
       if (x2 < 0 || x1 > screenW || y2 < 0 || y1 > screenH)
         continue;
       Rect r = {x1, y1, x2 - x1, y2 - y1};
-      win.DrawRectAlpha(r, {80, 180, 255, 20}, MapColors::MBRBorder, 1);
+      win.DrawRectAlpha(r, {80, 180, 255, 20}, MapColors::MBRBorder, 4);
     }
   }
 
