@@ -1,1 +1,124 @@
+\documentclass[11pt,a4paper]{article}
+
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{float}
+
+\geometry{margin=2.2cm}
+\setlength{\parskip}{0.35em}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{topsep=2pt,itemsep=2pt,parsep=0pt}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=blue
+}
+
+
+\title{\textbf{Proyecto 2: Implementación de un R-Tree}}
+\author{
+Castillo Prado, Leonardo Humberto\\
+Mattos Gutierrez, Angel Daniel\\
+Dasso Arana, Alvaro José\\[0.2cm]
+\textbf{Algoritmos y Estructuras de Datos}
+}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+
+En este proyecto se implementa un R-Tree desde cero en C++ para almacenar y consultar objetos espaciales. La estructura permite organizar puntos geográficos mediante rectángulos mínimos envolventes, conocidos como MBRs (\textit{Minimum Bounding Rectangles}), con el objetivo de acelerar consultas espaciales como búsqueda por rango y búsqueda de vecinos más cercanos o KNN frente a una solución ingenua como la búsqueda lineal que necesita recorrer todo el dataset, por lo que su costo crece directamente con la cantidad de objetos. En cambio, el R-Tree permite descartar subárboles completos cuando sus MBRs no son relevantes para la consulta.
+
+\section{Objetivos}
+
+El objetivo principal es implementar un R-Tree utilizando datos espaciales y compararlo contra una solución ingenua basada en búsqueda lineal.
+
+La implementación considera las siguientes operaciones principales:
+
+\begin{itemize}
+    \item Inserción de objetos espaciales.
+    \item Actualización de MBRs después de modificaciones.
+    \item División de nodos mediante split cuadrático.
+    \item Consultas por rango rectangular.
+    \item Consulta de vecinos más cercanos (KNN) usando un MinHeap.
+    \item Comparación contra búsqueda lineal.
+    \item Carga y visualización de datos espaciales reales.
+\end{itemize}
+
+\section{Modelo de datos}
+
+La estructura trabaja con objetos espaciales representados por coordenadas geográficas. En la implementación, la longitud se usa como coordenada $x$ y la latitud como coordenada $y$.
+
+Las estructuras principales son:
+
+\begin{itemize}
+    \item \textbf{SpatialObject}: Struct que almacena el id, nombre, categoría y coordenadas de un objeto.
+    \item \textbf{MBR}: representa un rectángulo mínimo envolvente mediante \texttt{minX}, \texttt{minY}, \texttt{maxX} y \texttt{maxY}.
+    \item \textbf{Entry}: representa una entrada dentro de un nodo. En hojas guarda un objeto real; en nodos internos guarda un MBR y un puntero a un hijo.
+    \item \textbf{RTNode}: representa un nodo del R-Tree. Contiene entradas, un MBR, un indicador de hoja y un puntero al padre.
+    \item \textbf{RTree}: representa la estructura completa, incluyendo la raíz, la capacidad máxima por nodo y las operaciones principales.
+\end{itemize}
+
+El MBR es la pieza central del R-Tree. Sus funciones más importantes son:
+
+\begin{itemize}
+    \item \texttt{area()}: calcula el área del rectángulo.
+    \item \texttt{expand()}: retorna el MBR mínimo que cubre dos rectángulos.
+    \item \texttt{enlarge()}: calcula cuánto crecería un MBR al incluir otro.
+    \item \texttt{intersects()}: verifica si dos MBRs se cruzan.
+    \item \texttt{distanceTo()}: calcula la distancia mínima entre un punto y un MBR.
+\end{itemize}
+
+Consideramos todas estas operaciones con costo $O(1)$ porque solo operan sobre cuatro coordenadas.
+
+\section{Construcción del R-Tree}
+
+La inserción comienza convirtiendo el punto a insertar en un MBR degenerado, es decir, un rectángulo de área cero donde:
+
+\[
+minX = maxX = x, \qquad minY = maxY = y
+\]
+
+Luego se ejecuta \texttt{chooseLeaf}, que baja desde la raíz hasta una hoja. En cada nodo interno se elige el hijo cuyo MBR tendría el menor crecimiento si recibiera el nuevo objeto. Si hay empate, se elige el MBR de menor área. Esta decisión es una heurística: no garantiza una organización óptima global, pero busca mantener los MBRs compactos.
+
+Después de insertar el objeto en la hoja, se actualizan los MBRs hacia arriba mediante \texttt{adjustTree}. Esto es necesario porque el MBR de una hoja puede crecer, y ese cambio debe reflejarse en sus padres hasta llegar a la raíz.
+
+Si un nodo supera su capacidad máxima $M$, se aplica \texttt{splitNode}. El proyecto usa split cuadrático. Este algoritmo elige dos entradas iniciales, llamadas semillas, que producirían el mayor desperdicio (\textit{waste}) de área si quedaran juntas:
+
+\[
+waste = area(MBR_1 \cup MBR_2) - area(MBR_1) - area(MBR_2)
+\]
+
+Luego, las entradas restantes se reparten entre los dos grupos. Para cada entrada se calcula cuánto crecería el MBR del grupo A y cuánto crecería el MBR del grupo B. La entrada se asigna al grupo donde cause menor crecimiento. Si hay empate, se usan criterios secundarios como menor área actual o menor cantidad de entradas.
+
+El split cuadrático intenta reducir la superposición entre MBRs, lo cual mejora las consultas posteriores.
+
+\section{Consultas implementadas}
+
+\subsection{Consulta por rango}
+
+La consulta por rango recibe un rectángulo de búsqueda y retorna los objetos ubicados dentro de él. El algoritmo empieza en la raíz y revisa las entradas del nodo actual. Si el MBR de una entrada no intersecta el rectángulo de consulta, esa entrada se descarta junto con todo su subárbol.
+
+Si la entrada sí intersecta, se continúa explorando. Cuando se llega a una hoja, se verifica si el punto del objeto está dentro del rectángulo consultado. Si lo está, se agrega al resultado.
+
+La ventaja frente a búsqueda lineal es que el R-Tree puede podar regiones completas del espacio sin revisar objeto por objeto.
+
+\subsection{Consulta KNN}
+
+La consulta KNN busca los $k$ objetos más cercanos a un punto. Para ello se utiliza un MinHeap, que permite procesar primero el candidato con menor distancia.
+
+Los candidatos pueden ser nodos, MBRs u objetos reales. Cuando el candidato es un nodo, se insertan sus hijos en el heap usando la distancia mínima entre el punto de consulta y cada MBR. Cuando el candidato es un objeto real, se agrega al resultado. El algoritmo termina cuando se obtienen los $k$ vecinos más cercanos.
+
+La distancia punto-MBR funciona como una cota inferior. Si un MBR está como mínimo a distancia $d$ del punto de consulta, ningún objeto dentro de ese MBR puede estar a una distancia menor que $d$. Por eso el algoritmo puede explorar primero las regiones más prometedoras sin perder exactitud.
 
