@@ -11,4 +11,5 @@ add_executable(tests
   test_vector.cpp
   test_stack.cpp
   test_queue.cpp
+  test_rtree.cpp
 )

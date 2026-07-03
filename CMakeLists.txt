@@ -45,10 +45,13 @@ if (UNIX AND NOT APPLE AND NOT WIN32)
     string(TOUPPER "${CMAKE_BUILD_TYPE}" UPPERCASE_BUILD_TYPE)
 
     if (UPPERCASE_BUILD_TYPE STREQUAL "DEBUG")
-        set(ASSETS_INSTALL_DIR "${CMAKE_CURRENT_BINARY_DIR}/assets/") 
+        set(ASSETS_INSTALL_DIR "${CMAKE_CURRENT_BINARY_DIR}/assets/")
     else()
         set(ASSETS_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}/")
     endif()
+elseif(APPLE)
+    # en macOS usamos los assets copiados a la carpeta de build
+    set(ASSETS_INSTALL_DIR "${CMAKE_CURRENT_BINARY_DIR}/assets/")
 else()
     set(ASSETS_INSTALL_DIR "${CMAKE_INSTALL_PREFIX}/${PROJECT_NAME}/assets/")
 endif()
@@ -68,6 +71,10 @@ install(TARGETS proyecto2 DESTINATION bin)
 install(DIRECTORY ${PROJECT_SOURCE_DIR}/assets/ DESTINATION "share/${PROJECT_NAME}/")
 
 add_subdirectory(tests)
+
+# Benchmark R-Tree vs busqueda lineal (consola, no requiere SDL)
+add_executable(bench bench.cpp)
+target_include_directories(bench PRIVATE include)
 
 if(WIN32)
     # Define the DLLs we need to copy

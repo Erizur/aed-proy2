@@ -6,7 +6,7 @@
 template <typename T> struct QueueNode {
   T val;
   QueueNode<T> *next;
-  QueueNode<T>(T data) : val(data), next(nullptr){};
+  QueueNode(T data) : val(data), next(nullptr){};
 };
 
 template <typename T> struct Queue {

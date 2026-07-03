@@ -2,6 +2,7 @@
 #define MINHEAP_HPP
 
 #include "vector.hpp"
+#include <functional> // std::less
 #include <utility>
 
 template <typename T, typename Comp = std::less<T>> struct MinHeap {
