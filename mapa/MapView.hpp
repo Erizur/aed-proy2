@@ -315,7 +315,8 @@ struct MapView {
                 if (x2 < 0 || x1 > screenW || y2 < 0 || y1 > screenH)
                     continue; // fuera de pantalla
                 Rect r = {x1, y1, x2 - x1, y2 - y1};
-                win.DrawRect(r, MapColors::MBRColor, MapColors::MBRBorder, 1);
+                // solo borde: con relleno los MBRs grandes tapan todo el mapa
+                win.DrawRect(r, {0, 0, 0, 0}, MapColors::MBRBorder, 1);
             }
         }
 
