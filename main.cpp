@@ -49,6 +49,19 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
   std::string assetDir = std::string(SDL_GetBasePath()) + "assets/";
 #endif
 
+#ifdef ASSET_DATA
+  app->win.SetIcon((std::string(ASSET_DATA) + "aed.png").c_str());
+#else
+  const char *sdlBase = SDL_GetBasePath();
+  std::string base = sdlBase ? sdlBase : "./";
+  auto tryIcon = [&](const std::string &dir) {
+    app->win.SetIcon((dir + "assets/aed.png").c_str());
+  };
+  tryIcon(base);
+  tryIcon(base + "../");
+  tryIcon("./");
+#endif
+
   SDL_Texture *pointSprite = nullptr;
   SDL_Texture *gridoSprite = nullptr;
 
