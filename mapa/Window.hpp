@@ -72,7 +72,6 @@ public:
     SDL_DestroySurface(icon);
   }
 
-
   void BeginFrame(Color bg = Colors::LightGray) {
     SDL_SetRenderDrawColor(m_renderer, bg.r, bg.g, bg.b, bg.a);
     SDL_RenderClear(m_renderer);
@@ -90,11 +89,22 @@ public:
     }
   }
 
+  void DrawRectAlpha(const Rect &r, Color fill, Color border,
+                     float borderW = 1.0f) {
+    SDL_SetRenderDrawBlendMode(m_renderer, SDL_BLENDMODE_BLEND);
+    SetColor(fill);
+    SDL_RenderFillRect(m_renderer, &r);
+    if (borderW > 0) {
+      SetColor(border);
+      SDL_RenderRect(m_renderer, &r);
+    }
+    SDL_SetRenderDrawBlendMode(m_renderer, SDL_BLENDMODE_NONE);
+  }
+
   void DrawBorder(const Rect &r, Color c, float thickness = 2.f) {
     SetColor(c);
     for (float i = 0; i < thickness; ++i) {
-      Rect inner = {r.x + i, r.y + i,
-                    std::max(0.f, r.w - 2.f * i),
+      Rect inner = {r.x + i, r.y + i, std::max(0.f, r.w - 2.f * i),
                     std::max(0.f, r.h - 2.f * i)};
       SDL_RenderRect(m_renderer, &inner);
     }

@@ -24,6 +24,24 @@ if(USE_VENDORED)
   add_subdirectory(${PROJECT_SOURCE_DIR}/vendored/SDL_ttf EXCLUDE_FROM_ALL)
   add_subdirectory(${PROJECT_SOURCE_DIR}/vendored/SDL_image EXCLUDE_FROM_ALL)
   add_subdirectory(${PROJECT_SOURCE_DIR}/vendored/SDL_mixer EXCLUDE_FROM_ALL)
+
+  # curl vendored
+  set(BUILD_CURL_EXE OFF CACHE BOOL "" FORCE)
+  set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
+  set(CURL_USE_SCHANNEL ON CACHE BOOL "" FORCE)
+  set(HTTP_ONLY ON CACHE BOOL "" FORCE)
+  set(CURL_DISABLE_FTP ON CACHE BOOL "" FORCE)
+  set(CURL_DISABLE_LDAP ON CACHE BOOL "" FORCE)
+  set(CURL_DISABLE_TELNET ON CACHE BOOL "" FORCE)
+  set(CURL_DISABLE_DICT ON CACHE BOOL "" FORCE)
+  set(CURL_DISABLE_FILE ON CACHE BOOL "" FORCE)
+  set(CURL_DISABLE_TFTP ON CACHE BOOL "" FORCE)
+  add_subdirectory(${PROJECT_SOURCE_DIR}/vendored/curl EXCLUDE_FROM_ALL)
+
+  # alias para que CURL::libcurl funcione igual que en sistema
+  if(NOT TARGET CURL::libcurl)
+    add_library(CURL::libcurl ALIAS libcurl_static)
+  endif()
 endif()
 
 include_directories(include mapa)
@@ -35,11 +53,12 @@ if(NOT USE_VENDORED)
     find_package(SDL3 REQUIRED CONFIG COMPONENTS SDL3-shared)
     find_package(SDL3_ttf REQUIRED CONFIG)
     find_package(SDL3_image REQUIRED)
+    find_package(CURL REQUIRED)
 endif()
 
 target_compile_definitions(proyecto2 PRIVATE "DEBUG=$<IF:$<CONFIG:Debug>,1,0>")
 
-target_link_libraries(proyecto2 PRIVATE SDL3::SDL3 SDL3_ttf::SDL3_ttf SDL3_image::SDL3_image)
+target_link_libraries(proyecto2 PRIVATE SDL3::SDL3 SDL3_ttf::SDL3_ttf SDL3_image::SDL3_image CURL::libcurl)
 
 if (UNIX AND NOT APPLE AND NOT WIN32)
     string(TOUPPER "${CMAKE_BUILD_TYPE}" UPPERCASE_BUILD_TYPE)

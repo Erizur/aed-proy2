@@ -12,6 +12,7 @@
 
 struct AppState {
   Window win;
+  TileCache tileCache;
   RTree tree{8}; // maxSize 8 para 15k+ puntos
   Vector<SpatialObject> objects;
   MapView mapView;
@@ -46,9 +47,9 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
   std::string assetDir = std::string(SDL_GetBasePath()) + "assets/";
 #endif
 
-  SDL_Log("Cargando cities15000...");
+  SDL_Log("Cargando cities1000...");
   Vector<SpatialObject> cities =
-      loadGeoNames(assetDir + "cities15000.txt", 15000);
+      loadGeoNames(assetDir + "cities1000.txt", -1);
   SDL_Log("Ciudades cargadas: %d", (int)cities.size());
 
   SDL_Log("Cargando grido.json...");
@@ -68,6 +69,11 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char **argv) {
 
   app->mapView.init(&app->tree, &app->objects);
   app->loaded = true;
+
+  app->tileCache.init(app->win.GetRenderer());
+  app->tileCache.uploadReady();
+  app->mapView.renderTiles(app->win, app->tileCache, (float)app->win.Width(),
+                           (float)app->win.Height());
 
   *appstate = app;
   return SDL_APP_CONTINUE;
@@ -94,9 +100,12 @@ SDL_AppResult SDL_AppIterate(void *appstate) {
   float w = (float)app->win.Width();
   float h = (float)app->win.Height();
 
-  app->win.BeginFrame({15, 20, 30, 255}); // fondo oscuro tipo mapa
+  app->win.BeginFrame({170, 211, 223, 255}); // fondo oscuro tipo mapa
 
   if (app->loaded) {
+    app->tileCache.uploadReady();
+
+    app->mapView.renderTiles(app->win, app->tileCache, w, h);
     app->mapView.render(app->win, w, h);
 
     // panel de stats en esquina inferior izquierda
@@ -117,9 +126,11 @@ SDL_AppResult SDL_AppIterate(void *appstate) {
     app->win.DrawText("Click der: KNN", 10, 30, Colors::MidGray, 14);
     app->win.DrawText("Shift+Click izq: Insertar", 10, 48, Colors::MidGray, 14);
     app->win.DrawText("Shift+Click der: Eliminar", 10, 66, Colors::MidGray, 14);
-    app->win.DrawText("Flechas arr/abj: cambiar k", 10, 84, Colors::MidGray, 14);
+    app->win.DrawText("Flechas arr/abj: cambiar k", 10, 84, Colors::MidGray,
+                      14);
     app->win.DrawText("M: MBRs on/off", 10, 102, Colors::MidGray, 14);
-    app->win.DrawText("Scroll: Zoom | Click medio: Pan", 10, 120, Colors::MidGray, 14);
+    app->win.DrawText("Scroll: Zoom | Click medio: Pan", 10, 120,
+                      Colors::MidGray, 14);
   }
 
   app->win.EndFrame();
@@ -130,6 +141,7 @@ void SDL_AppQuit(void *appstate, SDL_AppResult result) {
   AppState *app = static_cast<AppState *>(appstate);
   if (!app)
     return;
+  app->tileCache.quit();
   app->win.Quit();
   delete app;
 }

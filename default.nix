@@ -9,7 +9,7 @@ llvm.stdenv.mkDerivation {
   src = pkgs.lib.cleanSource ./.;
 
   nativeBuildInputs = with pkgs; [ pkg-config cmake ninja ];
-  buildInputs = with pkgs; [ sdl3 sdl3-image sdl3-ttf ];
+  buildInputs = with pkgs; [ sdl3 sdl3-image sdl3-ttf curl ];
 
   cmakeFlags = [
     "-DCMAKE_BUILD_TYPE=Release"

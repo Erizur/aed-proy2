@@ -75,5 +75,6 @@ Testing/
 .vscode/*
 .cache
 vendored/*
+tiles/
 result/*
 .idea
