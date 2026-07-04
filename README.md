@@ -38,13 +38,13 @@ assets/              datasets: cities15000.txt (GeoNames) y grido.json (OSM)
 
 ## Compilación
 
-Requiere CMake ≥ 3.10, un compilador con C++20, y SDL3 + SDL3_ttf + SDL3_image
-(solo para la aplicación gráfica; los tests y el benchmark no usan SDL).
+Requiere CMake ≥ 3.10, un compilador con C++20, SDL3, SDL3_ttf, SDL3_image y curl
+(solo para la aplicación gráfica).
 
 ### macOS
 
 ```bash
-brew install cmake sdl3 sdl3_ttf sdl3_image
+brew install cmake sdl3 sdl3_ttf sdl3_image curl
 cmake -B build
 cmake --build build
 ```
